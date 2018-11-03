@@ -4,7 +4,6 @@ using UnityEngine;
 
 public class SceneController : MonoBehaviour
 {
-
     public GameObject menuScreen;
     public GameObject firstRoom;
     public GameObject secondRoom;
@@ -14,6 +13,10 @@ public class SceneController : MonoBehaviour
     public GameObject controlsScreen;
 
     private bool paused = false;
+
+    private int count = 0;
+
+    public int numberToChangeRoom = 10;
 
     private void Awake()
     {
@@ -92,6 +95,21 @@ public class SceneController : MonoBehaviour
             {
                 PauseScreen();
             }
+        }
+    }
+
+    public void Counter()
+    {
+        count++;
+        Debug.Log("count: " + count);
+        if (count == 6)
+        {
+            FindObjectOfType<SpawnerController>().GetComponent<SpawnerController>().ControlEnemies(true);
+        }
+
+        if(count == numberToChangeRoom)
+        {
+            FindObjectOfType<DialogController>().GetComponent<DialogController>().ChangeDialog(2);
         }
     }
 }
