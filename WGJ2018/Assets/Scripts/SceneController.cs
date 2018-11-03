@@ -1,6 +1,9 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
+using UnityEngine.Playables;
+using UnityEngine.Timeline;
 
 public class SceneController : MonoBehaviour
 {
@@ -11,6 +14,7 @@ public class SceneController : MonoBehaviour
     public GameObject creditsScreen;
     public GameObject pauseScreen;
     public GameObject controlsScreen;
+    public GameObject intro;
 
     private bool paused = false;
 
@@ -27,6 +31,7 @@ public class SceneController : MonoBehaviour
         creditsScreen.SetActive(false);
         pauseScreen.SetActive(false);
         controlsScreen.SetActive(false);
+        intro.SetActive(false);
 
         Time.timeScale = 0f;
     }
@@ -35,7 +40,16 @@ public class SceneController : MonoBehaviour
     {
         Time.timeScale = 1f;
         menuScreen.SetActive(false);
-        firstRoom.SetActive(true);
+        intro.SetActive(true);
+        intro.GetComponent<PlayableDirector>().Play();
+        while (GetComponent<PlayableDirector>().state == PlayState.Playing)
+        {
+        }
+        if (GetComponent<PlayableDirector>().state != PlayState.Playing)
+        {
+            intro.SetActive(false);
+            firstRoom.SetActive(true);
+        }
     }
 
     public void CreditsScreen()
@@ -52,9 +66,7 @@ public class SceneController : MonoBehaviour
 
     public void BackToMenu(GameObject screen)
     {
-        screen.SetActive(false);
-        menuScreen.SetActive(true);
-        Time.timeScale = 0f;
+        SceneManager.LoadScene("game");
     }
 
     public void ExitGame()
@@ -107,7 +119,7 @@ public class SceneController : MonoBehaviour
             FindObjectOfType<SpawnerController>().GetComponent<SpawnerController>().ControlEnemies(true);
         }
 
-        if(count == numberToChangeRoom)
+        if (count == numberToChangeRoom)
         {
             FindObjectOfType<DialogController>().GetComponent<DialogController>().ChangeDialog(2);
         }
