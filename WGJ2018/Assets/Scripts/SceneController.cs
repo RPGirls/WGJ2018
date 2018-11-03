@@ -17,6 +17,7 @@ public class SceneController : MonoBehaviour
     public GameObject intro;
 
     private bool paused = false;
+    private bool introOff = true;
 
     private int count = 0;
 
@@ -42,14 +43,7 @@ public class SceneController : MonoBehaviour
         menuScreen.SetActive(false);
         intro.SetActive(true);
         intro.GetComponent<PlayableDirector>().Play();
-        while (GetComponent<PlayableDirector>().state == PlayState.Playing)
-        {
-        }
-        if (GetComponent<PlayableDirector>().state != PlayState.Playing)
-        {
-            intro.SetActive(false);
-            firstRoom.SetActive(true);
-        }
+        introOff = false;
     }
 
     public void CreditsScreen()
@@ -107,6 +101,13 @@ public class SceneController : MonoBehaviour
             {
                 PauseScreen();
             }
+        }
+
+        if (intro.GetComponent<PlayableDirector>().state != PlayState.Playing && !introOff)
+        {
+            introOff = true;
+            intro.SetActive(false);
+            firstRoom.SetActive(true);
         }
     }
 
