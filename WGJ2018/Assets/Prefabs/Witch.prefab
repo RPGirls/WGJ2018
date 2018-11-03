@@ -1086,21 +1086,21 @@ MeshFilter:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1679571850679066}
-  m_Mesh: {fileID: 0}
+  m_Mesh: {fileID: 43828277177212112, guid: 49e99668b3457ae45900f21e3785fee7, type: 2}
 --- !u!33 &33506609292181070
 MeshFilter:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1589908434541664}
-  m_Mesh: {fileID: 0}
+  m_Mesh: {fileID: 43662687846003246, guid: d9c49e9815c34c8479d8bc87803ceefd, type: 2}
 --- !u!33 &33615866692310886
 MeshFilter:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1898163936455940}
-  m_Mesh: {fileID: 0}
+  m_Mesh: {fileID: 43662687846003246, guid: 74615eb08ae5ec54ba10cea918049667, type: 2}
 --- !u!114 &114003956038615082
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1625,7 +1625,7 @@ SkinnedMeshRenderer:
   m_Quality: 0
   m_UpdateWhenOffscreen: 0
   m_SkinnedMotionVectors: 1
-  m_Mesh: {fileID: 0}
+  m_Mesh: {fileID: 43261545694209792, guid: 3544531c2d5f3434fa0f4b6aae646f42, type: 2}
   m_Bones:
   - {fileID: 4861966983456722}
   m_BlendShapeWeights: []
@@ -1673,7 +1673,7 @@ SkinnedMeshRenderer:
   m_Quality: 0
   m_UpdateWhenOffscreen: 0
   m_SkinnedMotionVectors: 1
-  m_Mesh: {fileID: 0}
+  m_Mesh: {fileID: 43606641970830404, guid: 0baa2785265c17843856d5d2931bdcdf, type: 2}
   m_Bones:
   - {fileID: 4226077626522604}
   - {fileID: 4970792220375764}
@@ -1722,7 +1722,7 @@ SkinnedMeshRenderer:
   m_Quality: 0
   m_UpdateWhenOffscreen: 0
   m_SkinnedMotionVectors: 1
-  m_Mesh: {fileID: 0}
+  m_Mesh: {fileID: 43986484589114486, guid: 1e34e535be140c44889bb2bf2931c44a, type: 2}
   m_Bones:
   - {fileID: 4911281395800088}
   m_BlendShapeWeights: []
@@ -1770,7 +1770,7 @@ SkinnedMeshRenderer:
   m_Quality: 0
   m_UpdateWhenOffscreen: 0
   m_SkinnedMotionVectors: 1
-  m_Mesh: {fileID: 0}
+  m_Mesh: {fileID: 43828277177212112, guid: 962928043069d0a43b86d312599fbc40, type: 2}
   m_Bones:
   - {fileID: 4154129239539446}
   - {fileID: 4486382023153694}
