@@ -67,6 +67,15 @@ MonoBehaviour:
   - {fileID: 21300000, guid: f9cd07cbacb864d30b5183aef8182f8f, type: 3}
   - {fileID: 21300000, guid: 48108d86f6210450c84802ee4112e94d, type: 3}
   - {fileID: 21300000, guid: 94357d7d8a4e04f2193c8178cda01867, type: 3}
+  - {fileID: 21300000, guid: 1c204a6f77a674cd79130bc7046ca5d2, type: 3}
+  - {fileID: 21300000, guid: f87de1452cd2f4bc7b3ddcae3c2cbb31, type: 3}
+  - {fileID: 21300000, guid: 9e78eb166797d431fab453242d38de2e, type: 3}
+  - {fileID: 21300000, guid: a566b769b0bff403fbe632616f21135b, type: 3}
+  - {fileID: 21300000, guid: 94b8156184b164dc5b0810b55e7f583b, type: 3}
+  - {fileID: 21300000, guid: 53028fc540251454cb3703c4107a6743, type: 3}
+  - {fileID: 21300000, guid: de2a0c5ca6fcb4059826ee27c9361eb1, type: 3}
+  - {fileID: 21300000, guid: baf204d886643478da76133c3c631c0a, type: 3}
+  - {fileID: 21300000, guid: 9bf2c88a5ba7a4c61a0df865d4063a72, type: 3}
   secondDialog: []
   thirdDialog: []
   forthDialog: []
