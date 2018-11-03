@@ -80,6 +80,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   target: {fileID: 4921913458983232, guid: 7810f6828cecf4c40b2036690373cf99, type: 2}
   speed: 1
+  objects:
+  - {fileID: 21300032, guid: e04131d47c7f0274789e8edd113b7152, type: 3}
+  - {fileID: 21300004, guid: e04131d47c7f0274789e8edd113b7152, type: 3}
+  - {fileID: 21300094, guid: e04131d47c7f0274789e8edd113b7152, type: 3}
 --- !u!212 &212051093665839632
 SpriteRenderer:
   m_ObjectHideFlags: 1

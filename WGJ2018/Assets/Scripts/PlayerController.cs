@@ -8,9 +8,11 @@ public class PlayerController : MonoBehaviour
 
     private bool bubbleOn = true;
 
+    private bool canBubble = true;
+
     private void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Space))
+        if (Input.GetKeyDown(KeyCode.Space) && canBubble)
         {
             if (bubbleOn)
             {
@@ -37,5 +39,10 @@ public class PlayerController : MonoBehaviour
             Debug.Log("good");
             Destroy(col.gameObject);
         }
+    }
+
+    public void ChangeCanBubble(bool can)
+    {
+        canBubble = can;
     }
 }

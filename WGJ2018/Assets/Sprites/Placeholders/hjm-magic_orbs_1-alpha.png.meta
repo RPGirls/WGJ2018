@@ -1,0 +1,3152 @@
+fileFormatVersion: 2
+guid: e04131d47c7f0274789e8edd113b7152
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: hjm-magic_orbs_1-alpha_0
+    21300002: hjm-magic_orbs_1-alpha_1
+    21300004: hjm-magic_orbs_1-alpha_2
+    21300006: hjm-magic_orbs_1-alpha_4
+    21300008: hjm-magic_orbs_1-alpha_5
+    21300010: hjm-magic_orbs_1-alpha_6
+    21300012: hjm-magic_orbs_1-alpha_7
+    21300014: hjm-magic_orbs_1-alpha_8
+    21300016: hjm-magic_orbs_1-alpha_9
+    21300018: hjm-magic_orbs_1-alpha_10
+    21300020: hjm-magic_orbs_1-alpha_11
+    21300022: hjm-magic_orbs_1-alpha_12
+    21300024: hjm-magic_orbs_1-alpha_13
+    21300026: hjm-magic_orbs_1-alpha_14
+    21300028: hjm-magic_orbs_1-alpha_15
+    21300030: hjm-magic_orbs_1-alpha_16
+    21300032: hjm-magic_orbs_1-alpha_17
+    21300034: hjm-magic_orbs_1-alpha_18
+    21300036: hjm-magic_orbs_1-alpha_19
+    21300038: hjm-magic_orbs_1-alpha_20
+    21300040: hjm-magic_orbs_1-alpha_21
+    21300042: hjm-magic_orbs_1-alpha_22
+    21300044: hjm-magic_orbs_1-alpha_23
+    21300046: hjm-magic_orbs_1-alpha_24
+    21300048: hjm-magic_orbs_1-alpha_25
+    21300050: hjm-magic_orbs_1-alpha_26
+    21300052: hjm-magic_orbs_1-alpha_27
+    21300054: hjm-magic_orbs_1-alpha_28
+    21300056: hjm-magic_orbs_1-alpha_29
+    21300058: hjm-magic_orbs_1-alpha_30
+    21300060: hjm-magic_orbs_1-alpha_31
+    21300062: hjm-magic_orbs_1-alpha_32
+    21300064: hjm-magic_orbs_1-alpha_33
+    21300066: hjm-magic_orbs_1-alpha_34
+    21300068: hjm-magic_orbs_1-alpha_35
+    21300070: hjm-magic_orbs_1-alpha_36
+    21300072: hjm-magic_orbs_1-alpha_37
+    21300074: hjm-magic_orbs_1-alpha_38
+    21300076: hjm-magic_orbs_1-alpha_39
+    21300078: hjm-magic_orbs_1-alpha_40
+    21300080: hjm-magic_orbs_1-alpha_41
+    21300082: hjm-magic_orbs_1-alpha_42
+    21300084: hjm-magic_orbs_1-alpha_43
+    21300086: hjm-magic_orbs_1-alpha_44
+    21300088: hjm-magic_orbs_1-alpha_45
+    21300090: hjm-magic_orbs_1-alpha_46
+    21300092: hjm-magic_orbs_1-alpha_47
+    21300094: hjm-magic_orbs_1-alpha_48
+    21300096: hjm-magic_orbs_1-alpha_49
+    21300098: hjm-magic_orbs_1-alpha_50
+    21300100: hjm-magic_orbs_1-alpha_51
+    21300102: hjm-magic_orbs_1-alpha_52
+    21300104: hjm-magic_orbs_1-alpha_53
+    21300106: hjm-magic_orbs_1-alpha_54
+    21300108: hjm-magic_orbs_1-alpha_55
+    21300110: hjm-magic_orbs_1-alpha_56
+    21300112: hjm-magic_orbs_1-alpha_57
+    21300114: hjm-magic_orbs_1-alpha_58
+    21300116: hjm-magic_orbs_1-alpha_59
+    21300118: hjm-magic_orbs_1-alpha_60
+    21300120: hjm-magic_orbs_1-alpha_61
+    21300122: hjm-magic_orbs_1-alpha_62
+    21300124: hjm-magic_orbs_1-alpha_63
+    21300126: hjm-magic_orbs_1-alpha_64
+    21300128: hjm-magic_orbs_1-alpha_65
+    21300130: hjm-magic_orbs_1-alpha_66
+    21300132: hjm-magic_orbs_1-alpha_67
+    21300134: hjm-magic_orbs_1-alpha_68
+    21300136: hjm-magic_orbs_1-alpha_69
+    21300138: hjm-magic_orbs_1-alpha_70
+    21300140: hjm-magic_orbs_1-alpha_71
+    21300142: hjm-magic_orbs_1-alpha_72
+    21300144: hjm-magic_orbs_1-alpha_73
+    21300146: hjm-magic_orbs_1-alpha_74
+    21300148: hjm-magic_orbs_1-alpha_75
+    21300150: hjm-magic_orbs_1-alpha_76
+    21300152: hjm-magic_orbs_1-alpha_77
+    21300154: hjm-magic_orbs_1-alpha_78
+    21300156: hjm-magic_orbs_1-alpha_79
+    21300158: hjm-magic_orbs_1-alpha_80
+    21300160: hjm-magic_orbs_1-alpha_81
+    21300162: hjm-magic_orbs_1-alpha_82
+    21300164: hjm-magic_orbs_1-alpha_83
+    21300166: hjm-magic_orbs_1-alpha_84
+    21300168: hjm-magic_orbs_1-alpha_85
+    21300170: hjm-magic_orbs_1-alpha_86
+    21300172: hjm-magic_orbs_1-alpha_87
+    21300174: hjm-magic_orbs_1-alpha_88
+    21300176: hjm-magic_orbs_1-alpha_89
+    21300178: hjm-magic_orbs_1-alpha_90
+    21300180: hjm-magic_orbs_1-alpha_91
+    21300182: hjm-magic_orbs_1-alpha_92
+    21300184: hjm-magic_orbs_1-alpha_93
+    21300186: hjm-magic_orbs_1-alpha_94
+    21300188: hjm-magic_orbs_1-alpha_95
+    21300190: hjm-magic_orbs_1-alpha_96
+    21300192: hjm-magic_orbs_1-alpha_97
+    21300194: hjm-magic_orbs_1-alpha_98
+    21300196: hjm-magic_orbs_1-alpha_99
+    21300198: hjm-magic_orbs_1-alpha_100
+    21300200: hjm-magic_orbs_1-alpha_101
+    21300202: hjm-magic_orbs_1-alpha_102
+    21300204: hjm-magic_orbs_1-alpha_103
+    21300206: hjm-magic_orbs_1-alpha_104
+    21300208: hjm-magic_orbs_1-alpha_105
+    21300210: hjm-magic_orbs_1-alpha_106
+    21300212: hjm-magic_orbs_1-alpha_107
+    21300214: hjm-magic_orbs_1-alpha_108
+    21300216: hjm-magic_orbs_1-alpha_109
+    21300218: hjm-magic_orbs_1-alpha_110
+    21300220: hjm-magic_orbs_1-alpha_111
+    21300222: hjm-magic_orbs_1-alpha_112
+    21300224: hjm-magic_orbs_1-alpha_113
+    21300226: hjm-magic_orbs_1-alpha_114
+    21300228: hjm-magic_orbs_1-alpha_115
+    21300230: hjm-magic_orbs_1-alpha_116
+    21300232: hjm-magic_orbs_1-alpha_117
+    21300234: hjm-magic_orbs_1-alpha_118
+    21300236: hjm-magic_orbs_1-alpha_119
+    21300238: hjm-magic_orbs_1-alpha_120
+    21300240: hjm-magic_orbs_1-alpha_121
+    21300242: hjm-magic_orbs_1-alpha_122
+    21300244: hjm-magic_orbs_1-alpha_123
+    21300246: hjm-magic_orbs_1-alpha_124
+    21300248: hjm-magic_orbs_1-alpha_125
+    21300250: hjm-magic_orbs_1-alpha_126
+    21300252: hjm-magic_orbs_1-alpha_127
+    21300254: hjm-magic_orbs_1-alpha_128
+    21300256: hjm-magic_orbs_1-alpha_129
+    21300258: hjm-magic_orbs_1-alpha_130
+    21300260: hjm-magic_orbs_1-alpha_131
+    21300262: hjm-magic_orbs_1-alpha_132
+    21300264: hjm-magic_orbs_1-alpha_133
+    21300266: hjm-magic_orbs_1-alpha_134
+    21300268: hjm-magic_orbs_1-alpha_135
+    21300270: hjm-magic_orbs_1-alpha_136
+    21300272: hjm-magic_orbs_1-alpha_137
+    21300274: hjm-magic_orbs_1-alpha_138
+    21300276: hjm-magic_orbs_1-alpha_139
+    21300278: hjm-magic_orbs_1-alpha_140
+    21300280: hjm-magic_orbs_1-alpha_141
+    21300282: hjm-magic_orbs_1-alpha_142
+    21300284: hjm-magic_orbs_1-alpha_143
+    21300286: hjm-magic_orbs_1-alpha_144
+  externalObjects: {}
+  serializedVersion: 5
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: hjm-magic_orbs_1-alpha_0
+      rect:
+        serializedVersion: 2
+        x: 1410
+        y: 1800
+        width: 116
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac8bdc2a4cdfac540be371d736582559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hjm-magic_orbs_1-alpha_1
+      rect:
+        serializedVersion: 2
+        x: 1543
+        y: 1865
+        width: 114
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d4806685436fee47902cd03685985c1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hjm-magic_orbs_1-alpha_2
+      rect:
+        serializedVersion: 2
+        x: 1674
+        y: 1800
+        width: 116
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: adfeda9c06910c948b0e8af3937ffcc1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hjm-magic_orbs_1-alpha_4
+      rect:
+        serializedVersion: 2
+        x: 1148
+        y: 1668
+        width: 115
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6027930105ea5ca4abdc35daf65a6467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hjm-magic_orbs_1-alpha_5
+      rect:
+        serializedVersion: 2
+        x: 1279
+        y: 1734
+        width: 115
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 094de4b365e8430489a43e0157e897e2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hjm-magic_orbs_1-alpha_6
+      rect:
+        serializedVersion: 2
+        x: 1410
+        y: 1668
+        width: 116
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ff76b3887de8874f929aafca6d3a646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hjm-magic_orbs_1-alpha_7
+      rect:
+        serializedVersion: 2
+        x: 1543
+        y: 1734
+        width: 114
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5a52e1af3d6e3c40a0d98ea2ff7f988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hjm-magic_orbs_1-alpha_8
+      rect:
+        serializedVersion: 2
+        x: 1674
+        y: 1668
+        width: 116
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 536b67eb6d1f8964a8f49c92f7c8d3af
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hjm-magic_orbs_1-alpha_9
+      rect:
+        serializedVersion: 2
+        x: 1806
+        y: 1731
+        width: 115
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2de569684774e234782c16d49a9fc3d3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hjm-magic_orbs_1-alpha_10
+      rect:
+        serializedVersion: 2
+        x: 1938
+        y: 1668
+        width: 114
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78c933d54e0c75642a231b4448e34aa3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hjm-magic_orbs_1-alpha_11
+      rect:
+        serializedVersion: 2
+        x: 884
+        y: 1537
+        width: 116
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 976d097a6e56021468e2c42e18d53809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hjm-magic_orbs_1-alpha_12
+      rect:
+        serializedVersion: 2
+        x: 1015
+        y: 1602
+        width: 115
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06c5f987fef8b924795331dddcd34d59
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hjm-magic_orbs_1-alpha_13
+      rect:
+        serializedVersion: 2
+        x: 1148
+        y: 1537
+        width: 115
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69e26cc0af8219a4c9f06212aa43c213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hjm-magic_orbs_1-alpha_14
+      rect:
+        serializedVersion: 2
+        x: 1279
+        y: 1600
+        width: 115
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 355c8be182eff7543848a22397eb9fe5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hjm-magic_orbs_1-alpha_15
+      rect:
+        serializedVersion: 2
+        x: 1410
+        y: 1537
+        width: 116
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48ef646804440ae439fc7aa546e0a0ed
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hjm-magic_orbs_1-alpha_16
+      rect:
+        serializedVersion: 2
+        x: 1543
+        y: 1602
+        width: 114
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d98cffe86bbc63489c72b1048983dd4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hjm-magic_orbs_1-alpha_17
+      rect:
+        serializedVersion: 2
+        x: 1674
+        y: 1537
+        width: 116
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1236e18f9f3983345950ed59e317c72d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hjm-magic_orbs_1-alpha_18
+      rect:
+        serializedVersion: 2
+        x: 1806
+        y: 1602
+        width: 115
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc1ff41198c5add4dba5f6596d272e93
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hjm-magic_orbs_1-alpha_19
+      rect:
+        serializedVersion: 2
+        x: 1937
+        y: 1537
+        width: 115
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6afd366456920144927ca1152ff1686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hjm-magic_orbs_1-alpha_20
+      rect:
+        serializedVersion: 2
+        x: 2069
+        y: 1602
+        width: 116
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b0b7b13c968ff443b16495ad0a65360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hjm-magic_orbs_1-alpha_21
+      rect:
+        serializedVersion: 2
+        x: 2200
+        y: 1537
+        width: 119
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96fa83906bfff4849923ee4fa29da25b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hjm-magic_orbs_1-alpha_22
+      rect:
+        serializedVersion: 2
+        x: 619
+        y: 1406
+        width: 116
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9544d64ed477bc543afc435d8ae67f43
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hjm-magic_orbs_1-alpha_23
+      rect:
+        serializedVersion: 2
+        x: 752
+        y: 1471
+        width: 114
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b0e6fb889c102045ab04aa451a977e9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hjm-magic_orbs_1-alpha_24
+      rect:
+        serializedVersion: 2
+        x: 881
+        y: 1406
+        width: 119
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23c0ff9ca2af1e34eb0a04cff238014c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hjm-magic_orbs_1-alpha_25
+      rect:
+        serializedVersion: 2
+        x: 1015
+        y: 1469
+        width: 116
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d166317488b7ddb4da34ea4d598f52b9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hjm-magic_orbs_1-alpha_26
+      rect:
+        serializedVersion: 2
+        x: 1148
+        y: 1406
+        width: 114
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acefc7a9526c6fd4baed17c8453ec6ef
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hjm-magic_orbs_1-alpha_27
+      rect:
+        serializedVersion: 2
+        x: 1279
+        y: 1471
+        width: 115
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ac8e63474ad0d34db02d8b9cf9aabb5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hjm-magic_orbs_1-alpha_28
+      rect:
+        serializedVersion: 2
+        x: 1410
+        y: 1406
+        width: 116
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1829d7680fa7da44d8b016e660fb6403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hjm-magic_orbs_1-alpha_29
+      rect:
+        serializedVersion: 2
+        x: 1543
+        y: 1471
+        width: 114
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a82d6ff4c5313a34d9bfe6b556be5dde
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hjm-magic_orbs_1-alpha_30
+      rect:
+        serializedVersion: 2
+        x: 1674
+        y: 1406
+        width: 116
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: caf7df849f933e34abd75828fef98621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hjm-magic_orbs_1-alpha_31
+      rect:
+        serializedVersion: 2
+        x: 1806
+        y: 1469
+        width: 115
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6cc111e5ae844f4d82e918509646589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hjm-magic_orbs_1-alpha_32
+      rect:
+        serializedVersion: 2
+        x: 1938
+        y: 1406
+        width: 114
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cd441a046467564e9595fcc2e1cfcf1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hjm-magic_orbs_1-alpha_33
+      rect:
+        serializedVersion: 2
+        x: 2070
+        y: 1471
+        width: 115
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 599fcc7c3498aae4a81d6b956081b843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hjm-magic_orbs_1-alpha_34
+      rect:
+        serializedVersion: 2
+        x: 2200
+        y: 1406
+        width: 116
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5584a9b783fef9343961905075349711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hjm-magic_orbs_1-alpha_35
+      rect:
+        serializedVersion: 2
+        x: 2331
+        y: 1471
+        width: 119
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5d96446805a7b94fb686527eadb9690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hjm-magic_orbs_1-alpha_36
+      rect:
+        serializedVersion: 2
+        x: 2465
+        y: 1406
+        width: 116
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28988bd37d863b44795184b47db60591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hjm-magic_orbs_1-alpha_37
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 1274
+        width: 115
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8124daa92573414d8449b277fe1d389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hjm-magic_orbs_1-alpha_38
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 1340
+        width: 116
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 171f0420da12f23468da2da5b9ae4ad7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hjm-magic_orbs_1-alpha_39
+      rect:
+        serializedVersion: 2
+        x: 619
+        y: 1274
+        width: 116
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b52676054e255248afe58acef1128f6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hjm-magic_orbs_1-alpha_40
+      rect:
+        serializedVersion: 2
+        x: 752
+        y: 1340
+        width: 114
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e39ae818d03d2c4594e7d81a4541a1f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hjm-magic_orbs_1-alpha_41
+      rect:
+        serializedVersion: 2
+        x: 884
+        y: 1274
+        width: 116
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 070868b1bf9920a4fb63570649b3e1f0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hjm-magic_orbs_1-alpha_42
+      rect:
+        serializedVersion: 2
+        x: 1015
+        y: 1340
+        width: 117
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1be413bf3ea4b6b4a972ac5a282e25ef
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hjm-magic_orbs_1-alpha_43
+      rect:
+        serializedVersion: 2
+        x: 1148
+        y: 1274
+        width: 115
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe5881290fa737e41bceaaca33b8c2f3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hjm-magic_orbs_1-alpha_44
+      rect:
+        serializedVersion: 2
+        x: 1279
+        y: 1340
+        width: 115
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57a7675cb1a5db54d9c412f58a742bf7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hjm-magic_orbs_1-alpha_45
+      rect:
+        serializedVersion: 2
+        x: 1410
+        y: 1274
+        width: 116
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9c4ca9ff8b1ff846b1f0c0c5999a015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hjm-magic_orbs_1-alpha_46
+      rect:
+        serializedVersion: 2
+        x: 1543
+        y: 1340
+        width: 114
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d2074087644783449f98d6d9116b5ee
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hjm-magic_orbs_1-alpha_47
+      rect:
+        serializedVersion: 2
+        x: 1674
+        y: 1274
+        width: 116
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7cd9262a5e48b894a9560880695eb596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hjm-magic_orbs_1-alpha_48
+      rect:
+        serializedVersion: 2
+        x: 1806
+        y: 1338
+        width: 115
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24a7e3d7bee8a8040935fbb8176bb9e8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hjm-magic_orbs_1-alpha_49
+      rect:
+        serializedVersion: 2
+        x: 1938
+        y: 1274
+        width: 114
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65086dbc4cd68c04c802328d497acf61
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hjm-magic_orbs_1-alpha_50
+      rect:
+        serializedVersion: 2
+        x: 2069
+        y: 1340
+        width: 116
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: baf20081c709a4547afc9002e53748dc
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hjm-magic_orbs_1-alpha_51
+      rect:
+        serializedVersion: 2
+        x: 2200
+        y: 1274
+        width: 116
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f739fd41ded9de4994f28636850d64c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hjm-magic_orbs_1-alpha_52
+      rect:
+        serializedVersion: 2
+        x: 2334
+        y: 1338
+        width: 114
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b505ce1e97a50ed49b5ac39ad422a0b9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hjm-magic_orbs_1-alpha_53
+      rect:
+        serializedVersion: 2
+        x: 2465
+        y: 1274
+        width: 116
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a867ae1b37cf7744e98cd0a097e4a394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hjm-magic_orbs_1-alpha_54
+      rect:
+        serializedVersion: 2
+        x: 2596
+        y: 1338
+        width: 117
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13a2c6d1d9545474e9c35197c541a5ee
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hjm-magic_orbs_1-alpha_55
+      rect:
+        serializedVersion: 2
+        x: 2729
+        y: 1274
+        width: 115
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12b7a6358f4241646aebd8db07800491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hjm-magic_orbs_1-alpha_56
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 1143
+        width: 115
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f274f164e40ce1f4690886ab8e36e926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hjm-magic_orbs_1-alpha_57
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 1209
+        width: 116
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba5ca6739fa922545ad3baaef958a859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hjm-magic_orbs_1-alpha_58
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 1143
+        width: 115
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83c1c2abec7659f47b5c66ae8e6cf750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hjm-magic_orbs_1-alpha_59
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 1209
+        width: 116
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6786c6b30a3bf12489b3242d83966551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hjm-magic_orbs_1-alpha_60
+      rect:
+        serializedVersion: 2
+        x: 619
+        y: 1143
+        width: 116
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18d72d1b97deb7344bd50397cf2cce93
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hjm-magic_orbs_1-alpha_61
+      rect:
+        serializedVersion: 2
+        x: 752
+        y: 1209
+        width: 114
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd53ae651cc7efd4dacfe1afaf50d54f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hjm-magic_orbs_1-alpha_62
+      rect:
+        serializedVersion: 2
+        x: 881
+        y: 1143
+        width: 119
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f881b5c91ac5974782db54211fe6fac
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hjm-magic_orbs_1-alpha_63
+      rect:
+        serializedVersion: 2
+        x: 1015
+        y: 1209
+        width: 116
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 899465f57f311b14eabb27f7b8a29cf6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hjm-magic_orbs_1-alpha_64
+      rect:
+        serializedVersion: 2
+        x: 1148
+        y: 1143
+        width: 114
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8aa5ba0a62ab4e4c8981109bc1f967a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hjm-magic_orbs_1-alpha_65
+      rect:
+        serializedVersion: 2
+        x: 1279
+        y: 1206
+        width: 115
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 552f17b5a2a815c4993433a24297b9a1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hjm-magic_orbs_1-alpha_66
+      rect:
+        serializedVersion: 2
+        x: 1410
+        y: 1143
+        width: 116
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33717525bd596cc4893fbdd92f33974b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hjm-magic_orbs_1-alpha_67
+      rect:
+        serializedVersion: 2
+        x: 1543
+        y: 1206
+        width: 114
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8aa762461844f2c499db097a61d2996b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hjm-magic_orbs_1-alpha_68
+      rect:
+        serializedVersion: 2
+        x: 1674
+        y: 1143
+        width: 116
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8bcc2f985b893d46b99d07d6a834cc4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hjm-magic_orbs_1-alpha_69
+      rect:
+        serializedVersion: 2
+        x: 1806
+        y: 1209
+        width: 115
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d35eb341a04f25442bab8850f7a88aa6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hjm-magic_orbs_1-alpha_70
+      rect:
+        serializedVersion: 2
+        x: 1937
+        y: 1143
+        width: 115
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a8badab359977345985cc04eb0535e5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hjm-magic_orbs_1-alpha_71
+      rect:
+        serializedVersion: 2
+        x: 2070
+        y: 1209
+        width: 115
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0862de4b9e7d7eb438df574767335244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hjm-magic_orbs_1-alpha_72
+      rect:
+        serializedVersion: 2
+        x: 2200
+        y: 1143
+        width: 119
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 147a9a18fe545c94e9cd9a315db756d7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hjm-magic_orbs_1-alpha_73
+      rect:
+        serializedVersion: 2
+        x: 2334
+        y: 1209
+        width: 114
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 862f741a556cf8f4e94cfe6ae0772690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hjm-magic_orbs_1-alpha_74
+      rect:
+        serializedVersion: 2
+        x: 2465
+        y: 1143
+        width: 116
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71c2ca02bed9e3c4baf57bc5534fe4cc
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hjm-magic_orbs_1-alpha_75
+      rect:
+        serializedVersion: 2
+        x: 2596
+        y: 1206
+        width: 117
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76dacda1bf2f22c4bbc35ac7cea376fc
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hjm-magic_orbs_1-alpha_76
+      rect:
+        serializedVersion: 2
+        x: 2729
+        y: 1143
+        width: 115
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b6b15ffbd372284daaf0e1b117b455d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hjm-magic_orbs_1-alpha_77
+      rect:
+        serializedVersion: 2
+        x: 2860
+        y: 1209
+        width: 116
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b6b137a20fe5cd459868eaaf538ef90
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hjm-magic_orbs_1-alpha_78
+      rect:
+        serializedVersion: 2
+        x: 2992
+        y: 1143
+        width: 115
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3dfde97e8eade88429516d2bc0d51dd2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hjm-magic_orbs_1-alpha_79
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 1077
+        width: 116
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4734e5aa642c5e24f9628d7df93a164f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hjm-magic_orbs_1-alpha_80
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 1011
+        width: 115
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ca21dffa638d7e42afccdd91368fd53
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hjm-magic_orbs_1-alpha_81
+      rect:
+        serializedVersion: 2
+        x: 487
+        y: 1077
+        width: 117
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33bdc1e9dcf928042b031b620076ffb9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hjm-magic_orbs_1-alpha_82
+      rect:
+        serializedVersion: 2
+        x: 619
+        y: 1011
+        width: 116
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5da27c72cff10d244bbb99062294fcac
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hjm-magic_orbs_1-alpha_83
+      rect:
+        serializedVersion: 2
+        x: 752
+        y: 1075
+        width: 114
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 766e9a7e18f2063459e294887e730318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hjm-magic_orbs_1-alpha_84
+      rect:
+        serializedVersion: 2
+        x: 884
+        y: 1011
+        width: 116
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e874d333743ce90408e3bb8126a35548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hjm-magic_orbs_1-alpha_85
+      rect:
+        serializedVersion: 2
+        x: 1015
+        y: 1077
+        width: 116
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c8820667fbf7a94da1079a29c3eece7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hjm-magic_orbs_1-alpha_86
+      rect:
+        serializedVersion: 2
+        x: 1148
+        y: 1011
+        width: 115
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7cfff4eb070982c4fbabe10d88d838cd
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hjm-magic_orbs_1-alpha_87
+      rect:
+        serializedVersion: 2
+        x: 1279
+        y: 1075
+        width: 115
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c51cf72ede568f46a40eebcd8ee010d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hjm-magic_orbs_1-alpha_88
+      rect:
+        serializedVersion: 2
+        x: 1410
+        y: 1012
+        width: 116
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f9a402bee4455949a0f4cd791723298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hjm-magic_orbs_1-alpha_89
+      rect:
+        serializedVersion: 2
+        x: 1543
+        y: 1075
+        width: 114
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cfd64648e634dd4a92baa44b59adb51
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hjm-magic_orbs_1-alpha_90
+      rect:
+        serializedVersion: 2
+        x: 1674
+        y: 1012
+        width: 116
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d378a764a334334d85cd471460a1e0e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hjm-magic_orbs_1-alpha_91
+      rect:
+        serializedVersion: 2
+        x: 1806
+        y: 1075
+        width: 115
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21e2d8c51abacd244bd63a75764fb1f7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hjm-magic_orbs_1-alpha_92
+      rect:
+        serializedVersion: 2
+        x: 1937
+        y: 1011
+        width: 115
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b449c106527bf294da87e779235bbb6f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hjm-magic_orbs_1-alpha_93
+      rect:
+        serializedVersion: 2
+        x: 2069
+        y: 1075
+        width: 116
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90b3019d37f564f479683bebd9e904b7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hjm-magic_orbs_1-alpha_94
+      rect:
+        serializedVersion: 2
+        x: 2200
+        y: 1011
+        width: 119
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: daa24d7f8f39f74478b399cf826c7cac
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hjm-magic_orbs_1-alpha_95
+      rect:
+        serializedVersion: 2
+        x: 2331
+        y: 1075
+        width: 117
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d698a4c22b9df3347b5c37edd5a962dc
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hjm-magic_orbs_1-alpha_96
+      rect:
+        serializedVersion: 2
+        x: 2465
+        y: 1012
+        width: 116
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63a13bbe2d4e4f7499984ab3daec4202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hjm-magic_orbs_1-alpha_97
+      rect:
+        serializedVersion: 2
+        x: 2596
+        y: 1077
+        width: 117
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfd3c3752091303438f7a2e3dcc69d66
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hjm-magic_orbs_1-alpha_98
+      rect:
+        serializedVersion: 2
+        x: 2729
+        y: 1012
+        width: 115
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1946ee61a093948498f52cd3920258de
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hjm-magic_orbs_1-alpha_99
+      rect:
+        serializedVersion: 2
+        x: 2860
+        y: 1077
+        width: 116
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bb74181f8074614097f14d0279a2b40
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hjm-magic_orbs_1-alpha_100
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 946
+        width: 116
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 425b054070af11e4296f3eecf259ae32
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hjm-magic_orbs_1-alpha_101
+      rect:
+        serializedVersion: 2
+        x: 619
+        y: 879
+        width: 116
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc5f4fbfa44143846b34f4465f47fd41
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hjm-magic_orbs_1-alpha_102
+      rect:
+        serializedVersion: 2
+        x: 752
+        y: 946
+        width: 114
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 987993ed472af8b4f867ce98dd7e12c8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hjm-magic_orbs_1-alpha_103
+      rect:
+        serializedVersion: 2
+        x: 881
+        y: 879
+        width: 119
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cfb15c3b07e133498bb8b757ec43977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hjm-magic_orbs_1-alpha_104
+      rect:
+        serializedVersion: 2
+        x: 1015
+        y: 944
+        width: 116
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 276d1a2a76caa9b43a46d94520ba3d0e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hjm-magic_orbs_1-alpha_105
+      rect:
+        serializedVersion: 2
+        x: 1148
+        y: 879
+        width: 114
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2fef21979880a24caf4b08282646d9c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hjm-magic_orbs_1-alpha_106
+      rect:
+        serializedVersion: 2
+        x: 1279
+        y: 946
+        width: 115
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e3fc41c7b0e060429f2b1aa7f1130ce
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hjm-magic_orbs_1-alpha_107
+      rect:
+        serializedVersion: 2
+        x: 1410
+        y: 879
+        width: 116
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86f409d4571e0d346b76d7eff5683b76
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hjm-magic_orbs_1-alpha_108
+      rect:
+        serializedVersion: 2
+        x: 1543
+        y: 946
+        width: 114
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 688a69614cb75534d907edeafc71dea9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hjm-magic_orbs_1-alpha_109
+      rect:
+        serializedVersion: 2
+        x: 1674
+        y: 879
+        width: 116
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4e1b8acb6fdea045ae0a880eb1b84bc
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hjm-magic_orbs_1-alpha_110
+      rect:
+        serializedVersion: 2
+        x: 1806
+        y: 944
+        width: 115
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 793a10f0246f58f4b8ee8c7a2a83bef4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hjm-magic_orbs_1-alpha_111
+      rect:
+        serializedVersion: 2
+        x: 1938
+        y: 879
+        width: 115
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c17a5bed2a367344949ee1921d8c8bf
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hjm-magic_orbs_1-alpha_112
+      rect:
+        serializedVersion: 2
+        x: 2069
+        y: 944
+        width: 116
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6eaf5fe2136b451439eece8849978f06
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hjm-magic_orbs_1-alpha_113
+      rect:
+        serializedVersion: 2
+        x: 2200
+        y: 879
+        width: 119
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f74a429af0c87f42a0697ffd8cbc564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hjm-magic_orbs_1-alpha_114
+      rect:
+        serializedVersion: 2
+        x: 2334
+        y: 944
+        width: 114
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50b1277bb765db54083cd6ddcfd0fa4a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hjm-magic_orbs_1-alpha_115
+      rect:
+        serializedVersion: 2
+        x: 2465
+        y: 879
+        width: 116
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2693f4e62dec1ff47b9c0363579bda0f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hjm-magic_orbs_1-alpha_116
+      rect:
+        serializedVersion: 2
+        x: 2596
+        y: 946
+        width: 117
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17cebb256e3420643a54f1d27741a966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hjm-magic_orbs_1-alpha_117
+      rect:
+        serializedVersion: 2
+        x: 752
+        y: 814
+        width: 114
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ad11b308c0bbda4bb5b4bfae31d0eda
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hjm-magic_orbs_1-alpha_118
+      rect:
+        serializedVersion: 2
+        x: 881
+        y: 748
+        width: 119
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da89581491f33ec46ae7a3b4b2c3abb1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hjm-magic_orbs_1-alpha_119
+      rect:
+        serializedVersion: 2
+        x: 1015
+        y: 813
+        width: 116
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e97a0201a07beb4187ae094375de1b1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hjm-magic_orbs_1-alpha_120
+      rect:
+        serializedVersion: 2
+        x: 1148
+        y: 748
+        width: 114
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5823eeff144042d45b5ee7d3d29d2152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hjm-magic_orbs_1-alpha_121
+      rect:
+        serializedVersion: 2
+        x: 1279
+        y: 813
+        width: 115
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1d2e863d1fb61c44ac9e4b03a1c3a2b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hjm-magic_orbs_1-alpha_122
+      rect:
+        serializedVersion: 2
+        x: 1410
+        y: 748
+        width: 116
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 116192d94502a4341ade2fa9cb01859e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hjm-magic_orbs_1-alpha_123
+      rect:
+        serializedVersion: 2
+        x: 1543
+        y: 813
+        width: 114
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2dda44303823678409e5d6de6902e35e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hjm-magic_orbs_1-alpha_124
+      rect:
+        serializedVersion: 2
+        x: 1674
+        y: 748
+        width: 116
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8443e7c8f8d4823458675221f47e13b0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hjm-magic_orbs_1-alpha_125
+      rect:
+        serializedVersion: 2
+        x: 1806
+        y: 813
+        width: 115
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91cf1bc9bc843b24fa24e051ff43330f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hjm-magic_orbs_1-alpha_126
+      rect:
+        serializedVersion: 2
+        x: 1938
+        y: 748
+        width: 114
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ceb3fe50f62d67548a02ec3f553af423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hjm-magic_orbs_1-alpha_127
+      rect:
+        serializedVersion: 2
+        x: 2068
+        y: 813
+        width: 117
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80a513cc13bcbbc408498ca9ed5bd6f6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hjm-magic_orbs_1-alpha_128
+      rect:
+        serializedVersion: 2
+        x: 2200
+        y: 748
+        width: 119
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7f87cc5b89c5dc4db97d8883b0840a9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hjm-magic_orbs_1-alpha_129
+      rect:
+        serializedVersion: 2
+        x: 2334
+        y: 814
+        width: 114
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9606934bf6d1c7f4e9e9204c8f344396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hjm-magic_orbs_1-alpha_130
+      rect:
+        serializedVersion: 2
+        x: 1015
+        y: 681
+        width: 116
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b79a3f5411e43fa4495fc5510524ea6a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hjm-magic_orbs_1-alpha_131
+      rect:
+        serializedVersion: 2
+        x: 1148
+        y: 617
+        width: 115
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7e070529b818a348b43bc5eecf98ca2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hjm-magic_orbs_1-alpha_132
+      rect:
+        serializedVersion: 2
+        x: 1279
+        y: 681
+        width: 115
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3835358d5c8e41458d52403b43250c9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hjm-magic_orbs_1-alpha_133
+      rect:
+        serializedVersion: 2
+        x: 1410
+        y: 617
+        width: 116
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: feec66077767d3b428dfc6ef7f07ce09
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hjm-magic_orbs_1-alpha_134
+      rect:
+        serializedVersion: 2
+        x: 1543
+        y: 681
+        width: 114
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fff0af3cd41d5cd4c8579d327bdf6882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hjm-magic_orbs_1-alpha_135
+      rect:
+        serializedVersion: 2
+        x: 1674
+        y: 617
+        width: 116
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 634dc5edd9be9cd4cbc43bf4178747f5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hjm-magic_orbs_1-alpha_136
+      rect:
+        serializedVersion: 2
+        x: 1806
+        y: 681
+        width: 115
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 003a76bc7c77fa74c9affe5160cebc97
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hjm-magic_orbs_1-alpha_137
+      rect:
+        serializedVersion: 2
+        x: 1938
+        y: 617
+        width: 114
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c146fc31d21e1874ea9d2c85f9d6d469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hjm-magic_orbs_1-alpha_138
+      rect:
+        serializedVersion: 2
+        x: 2069
+        y: 681
+        width: 116
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f90d877176c22c54999e1bd90919a599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hjm-magic_orbs_1-alpha_139
+      rect:
+        serializedVersion: 2
+        x: 1279
+        y: 550
+        width: 115
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78893b17bd7384c44bb9ee3c121dfc53
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hjm-magic_orbs_1-alpha_140
+      rect:
+        serializedVersion: 2
+        x: 1410
+        y: 485
+        width: 116
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20022056ea4f2d246b0c679b2a7d5166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hjm-magic_orbs_1-alpha_141
+      rect:
+        serializedVersion: 2
+        x: 1543
+        y: 550
+        width: 114
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 983ccf2bfba5af14d9033929d8874966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hjm-magic_orbs_1-alpha_142
+      rect:
+        serializedVersion: 2
+        x: 1674
+        y: 485
+        width: 116
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e9548938003c3842b5f8ac5a848ee4f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hjm-magic_orbs_1-alpha_143
+      rect:
+        serializedVersion: 2
+        x: 1806
+        y: 550
+        width: 115
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfd3cf002c8b5c54aa293d7ed814ebac
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hjm-magic_orbs_1-alpha_144
+      rect:
+        serializedVersion: 2
+        x: 1543
+        y: 419
+        width: 114
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ae388c567140e2469a4e46d958c79eb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 1b486433c4609354ead46687f5fc5fc7
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

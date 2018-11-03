@@ -9,10 +9,17 @@ public class SpawnerController : MonoBehaviour
     public GameObject badObject;
     public GameObject goodObject;
 
-    private void Start()
+    public void ControlEnemies(bool canSpawn)
     {
-        SpawnEnemy();
-        StartCoroutine("EnemySpawner");
+        if (canSpawn)
+        {
+            SpawnEnemy();
+            StartCoroutine("EnemySpawner");
+        }
+        else
+        {
+            StopCoroutine("EnemySpawner");
+        }
     }
 
     IEnumerator EnemySpawner()
@@ -27,12 +34,16 @@ public class SpawnerController : MonoBehaviour
     {
         if (Random.Range(0, 2) == 0)
         {
-            Instantiate(badObject, new Vector3(Random.Range(-8, 8), this.transform.position.y, 0), Quaternion.identity);
+            Instantiate(badObject, new Vector3(transform.GetChild((int)(Random.Range(0, (float)transform.childCount))).transform.position.x, this.transform.position.y, 0), Quaternion.identity);
         }
         else
         {
-            Instantiate(goodObject, new Vector3(Random.Range(-8, 8), this.transform.position.y, 0), Quaternion.identity);
-
+            Instantiate(goodObject, new Vector3(transform.GetChild((int)(Random.Range(0, (float)transform.childCount))).transform.position.x, this.transform.position.y, 0), Quaternion.identity);
         }
+    }
+
+    public void SpawnInitial()
+    {
+
     }
 }
