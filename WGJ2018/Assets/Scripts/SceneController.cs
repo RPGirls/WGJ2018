@@ -11,6 +11,7 @@ public class SceneController : MonoBehaviour
     public GameObject finalCredits;
     public GameObject creditsScreen;
     public GameObject pauseScreen;
+    public GameObject controlsScreen;
 
     private bool paused = false;
 
@@ -22,6 +23,7 @@ public class SceneController : MonoBehaviour
         finalCredits.SetActive(false);
         creditsScreen.SetActive(false);
         pauseScreen.SetActive(false);
+        controlsScreen.SetActive(false);
 
         Time.timeScale = 0f;
     }
@@ -37,6 +39,12 @@ public class SceneController : MonoBehaviour
     {
         menuScreen.SetActive(false);
         creditsScreen.SetActive(true);
+    }
+
+    public void ControlsScreen()
+    {
+        menuScreen.SetActive(false);
+        controlsScreen.SetActive(true);
     }
 
     public void BackToMenu(GameObject screen)
