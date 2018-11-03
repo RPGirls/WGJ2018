@@ -76,7 +76,17 @@ MonoBehaviour:
   - {fileID: 21300000, guid: de2a0c5ca6fcb4059826ee27c9361eb1, type: 3}
   - {fileID: 21300000, guid: baf204d886643478da76133c3c631c0a, type: 3}
   - {fileID: 21300000, guid: 9bf2c88a5ba7a4c61a0df865d4063a72, type: 3}
-  secondDialog: []
+  secondDialog:
+  - {fileID: 21300000, guid: 39b01513caed1429fba5ed09254ae436, type: 3}
+  - {fileID: 21300000, guid: 537209e7eedf44cdab7760704083a339, type: 3}
+  - {fileID: 21300000, guid: 931c5b092925343a49d3928977a59b7b, type: 3}
+  - {fileID: 21300000, guid: 6a5153b10da5544958f3c5e9c725419a, type: 3}
+  - {fileID: 21300000, guid: 7caf48a957c8e4bffba9526890576512, type: 3}
+  - {fileID: 21300000, guid: 6f7fafbca971d49f6b33d0acc7c5620c, type: 3}
+  - {fileID: 21300000, guid: 246dd626356db4b8ca55adf41bae5973, type: 3}
+  - {fileID: 21300000, guid: d6a001eb2a6e54368a43fb7437c41d7f, type: 3}
+  - {fileID: 21300000, guid: 2c9ca8214caac4548b1693a07dd3c3e3, type: 3}
+  - {fileID: 21300000, guid: 678f966c6b0a1435da0392b4546d42c7, type: 3}
   thirdDialog: []
   forthDialog: []
 --- !u!114 &114665484412344748
@@ -177,7 +187,7 @@ RectTransform:
   m_GameObject: {fileID: 1934386710046098}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.050000004, y: 0.050000004, z: 1}
+  m_LocalScale: {x: 0.049999997, y: 0.049999997, z: 1}
   m_Children:
   - {fileID: 224444442260041192}
   m_Father: {fileID: 0}

@@ -6,6 +6,7 @@ TagManager:
   tags:
   - badObject
   - goodObject
+  - progression
   layers:
   - Default
   - TransparentFX

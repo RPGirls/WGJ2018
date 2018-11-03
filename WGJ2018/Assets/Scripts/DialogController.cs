@@ -38,7 +38,7 @@ public class DialogController : MonoBehaviour
 
     public void ChangeDialog(int number)
     {
-        if(number == 2)
+        if (number == 2)
         {
             currentDialog = secondDialog;
         }
@@ -78,10 +78,35 @@ public class DialogController : MonoBehaviour
                 dialogueBox.transform.parent.transform.position.Set(-0.25f, 1.3f, 0f);
             }
 
-            if (dialogNumber == 12)
+            if (dialogNumber == 12 && currentDialog == firstDialog)
             {
                 spawner.GetComponent<SpawnerController>().SpawnInitial();
             }
+
+            if (dialogNumber == 2 && currentDialog == secondDialog)
+            {
+                GameObject[] objs;
+                objs = GameObject.FindGameObjectsWithTag("badObject");
+                GameObject[] objs02;
+                objs02 = GameObject.FindGameObjectsWithTag("goodObject");
+
+                foreach (GameObject obj in objs)
+                {
+                    Destroy(obj);
+                }
+
+                foreach (GameObject obj in objs02)
+                {
+                    Destroy(obj);
+                }
+
+            }
+
+            if(dialogNumber == 4 && currentDialog == secondDialog)
+            {
+                FindObjectOfType<SceneController>().GetComponent<SceneController>().SecondRoom();
+            }
+
             dialogueBox.GetComponent<Image>().sprite = currentDialog[dialogNumber];
             dialogNumber++;
         }

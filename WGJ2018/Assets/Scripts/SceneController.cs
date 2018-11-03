@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.Playables;
-using UnityEngine.Timeline;
+using UnityEngine.UI;
 
 public class SceneController : MonoBehaviour
 {
@@ -15,11 +15,13 @@ public class SceneController : MonoBehaviour
     public GameObject pauseScreen;
     public GameObject controlsScreen;
     public GameObject intro;
+    public GameObject game;
 
     private bool paused = false;
     private bool introOff = true;
 
-    private int count = 0;
+    private int count = 50;
+    private int numberOfEnemies = 0;
 
     public int numberToChangeRoom = 10;
 
@@ -33,6 +35,7 @@ public class SceneController : MonoBehaviour
         pauseScreen.SetActive(false);
         controlsScreen.SetActive(false);
         intro.SetActive(false);
+        game.SetActive(false);
 
         Time.timeScale = 0f;
     }
@@ -44,6 +47,13 @@ public class SceneController : MonoBehaviour
         intro.SetActive(true);
         intro.GetComponent<PlayableDirector>().Play();
         introOff = false;
+    }
+
+    public void SecondRoom()
+    {
+        firstRoom.SetActive(false);
+        secondRoom.SetActive(true);
+        count = 50;
     }
 
     public void CreditsScreen()
@@ -108,21 +118,51 @@ public class SceneController : MonoBehaviour
             introOff = true;
             intro.SetActive(false);
             firstRoom.SetActive(true);
+            game.SetActive(true);
         }
     }
 
-    public void Counter()
+    public void Counter(bool isGood)
     {
-        count++;
+        numberOfEnemies++;
+        if (isGood)
+        {
+            count += 10;
+        }
+        else
+        {
+            count -= 10;
+            if (count < 0)
+            {
+                count = 0;
+            }
+        }
+
+        GameObject.FindGameObjectWithTag("progression").transform.GetChild(0).GetComponent<Slider>().value = count;
+
         Debug.Log("count: " + count);
-        if (count == 6)
+        if (numberOfEnemies == 6)
         {
             FindObjectOfType<SpawnerController>().GetComponent<SpawnerController>().ControlEnemies(true);
         }
 
-        if (count == numberToChangeRoom)
+        if (count >= 100)
         {
             FindObjectOfType<DialogController>().GetComponent<DialogController>().ChangeDialog(2);
+            GameObject[] objs;
+            objs = GameObject.FindGameObjectsWithTag("badObject");
+            GameObject[] objs02;
+            objs02 = GameObject.FindGameObjectsWithTag("goodObject");
+
+            foreach (GameObject obj in objs)
+            {
+                obj.GetComponent<EnemyController>().SetCanMove(false);
+            }
+
+            foreach (GameObject obj in objs02)
+            {
+                obj.GetComponent<EnemyController>().SetCanMove(false);
+            }
         }
     }
 }
