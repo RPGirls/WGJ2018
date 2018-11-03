@@ -36,6 +36,23 @@ public class DialogController : MonoBehaviour
         }
     }
 
+    public void ChangeDialog(int number)
+    {
+        if(number == 2)
+        {
+            currentDialog = secondDialog;
+        }
+        if (number == 3)
+        {
+            currentDialog = thirdDialog;
+        }
+        if (number == 4)
+        {
+            currentDialog = forthDialog;
+        }
+        StartDialog();
+    }
+
     private void StartDialog()
     {
         spawner.GetComponent<SpawnerController>().ControlEnemies(false);
@@ -52,13 +69,18 @@ public class DialogController : MonoBehaviour
             if (currentDialog[dialogNumber].name.Contains("Witch"))
             {
                 dialogueBox.transform.parent.SetParent(witch.transform);
-                dialogueBox.transform.parent.transform.position.Set(0.30f, 0.25f, 0f);
+                dialogueBox.transform.parent.transform.position.Set(0.30f, 1.3f, 0f);
             }
 
             if (currentDialog[dialogNumber].name.Contains("Princess"))
             {
                 dialogueBox.transform.parent.SetParent(princess.transform);
-                dialogueBox.transform.parent.transform.position.Set(-0.25f, 0.25f, 0f);
+                dialogueBox.transform.parent.transform.position.Set(-0.25f, 1.3f, 0f);
+            }
+
+            if (dialogNumber == 12)
+            {
+                spawner.GetComponent<SpawnerController>().SpawnInitial();
             }
             dialogueBox.GetComponent<Image>().sprite = currentDialog[dialogNumber];
             dialogNumber++;
@@ -77,9 +99,19 @@ public class DialogController : MonoBehaviour
     {
         yield return new WaitForEndOfFrame();
         princess.GetComponent<PlayerController>().ChangeCanBubble(true);
-        if (currentDialog == firstDialog)
+        GameObject[] objs;
+        objs = GameObject.FindGameObjectsWithTag("badObject");
+        GameObject[] objs02;
+        objs02 = GameObject.FindGameObjectsWithTag("goodObject");
+
+        foreach (GameObject obj in objs)
         {
-            spawner.GetComponent<SpawnerController>().SpawnInitial();
+            obj.GetComponent<EnemyController>().SetCanMove(true);
+        }
+
+        foreach (GameObject obj in objs02)
+        {
+            obj.GetComponent<EnemyController>().SetCanMove(true);
         }
     }
 }
