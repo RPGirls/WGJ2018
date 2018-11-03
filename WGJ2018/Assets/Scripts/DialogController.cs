@@ -66,18 +66,20 @@ public class DialogController : MonoBehaviour
     {
         if (currentDialog.Length > dialogNumber)
         {
-            if (currentDialog[dialogNumber].name.Contains("Witch"))
-            {
-                dialogueBox.transform.parent.SetParent(witch.transform);
-                dialogueBox.transform.parent.transform.position.Set(0.30f, 1.3f, 0f);
-            }
 
             if (currentDialog[dialogNumber].name.Contains("Princess"))
             {
                 dialogueBox.transform.parent.SetParent(princess.transform);
-                dialogueBox.transform.parent.transform.position.Set(-0.25f, 1.3f, 0f);
+
+                dialogueBox.transform.parent.transform.localPosition = new Vector3(-2.17f, 2.75f, 0f);
             }
 
+            if (currentDialog[dialogNumber].name.Contains("Witch"))
+            {
+                dialogueBox.transform.parent.SetParent(witch.transform);
+
+                dialogueBox.transform.parent.transform.localPosition = new Vector3(2.15f, 2.7f, 0f);
+            }
             if (dialogNumber == 12 && currentDialog == firstDialog)
             {
                 spawner.GetComponent<SpawnerController>().SpawnInitial();
@@ -102,7 +104,7 @@ public class DialogController : MonoBehaviour
 
             }
 
-            if(dialogNumber == 4 && currentDialog == secondDialog)
+            if (dialogNumber == 4 && currentDialog == secondDialog)
             {
                 FindObjectOfType<SceneController>().GetComponent<SceneController>().SecondRoom();
             }

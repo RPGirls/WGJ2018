@@ -54,6 +54,10 @@ public class SceneController : MonoBehaviour
         firstRoom.SetActive(false);
         secondRoom.SetActive(true);
         count = 50;
+        Camera.main.orthographicSize = 5f;
+        Camera.main.gameObject.transform.position = new Vector3(0f, 0f, -10f);
+        FindObjectOfType<SpawnerController>().transform.localScale = new Vector3(111.2f, 5.5f, 1f);
+        FindObjectOfType<SpawnerController>().transform.localPosition = new Vector3(-383.8f, -227.4f, 1f);
     }
 
     public void CreditsScreen()
@@ -119,6 +123,10 @@ public class SceneController : MonoBehaviour
             intro.SetActive(false);
             firstRoom.SetActive(true);
             game.SetActive(true);
+            Camera.main.orthographicSize = 3.35f;
+            Camera.main.gameObject.transform.position = new Vector3(-1f, -1.65f, -10f);
+            FindObjectOfType<SpawnerController>().transform.localScale = new Vector3(75.75f, 3.75f, 1f);
+            FindObjectOfType<SpawnerController>().transform.localPosition = new Vector3(-387.52f, -230.32f, 1f);
         }
     }
 
