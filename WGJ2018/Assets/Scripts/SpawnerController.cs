@@ -34,16 +34,19 @@ public class SpawnerController : MonoBehaviour
     {
         if (Random.Range(0, 2) == 0)
         {
-            Instantiate(badObject, new Vector3(transform.GetChild((int)(Random.Range(0, (float)transform.childCount))).transform.position.x, this.transform.position.y, 0), Quaternion.identity);
+            var obj = Instantiate(badObject, new Vector3(transform.GetChild((int)(Random.Range(0, (float)transform.childCount))).transform.position.x, this.transform.position.y, 0), Quaternion.identity);
+            obj.GetComponent<SpriteRenderer>().sprite = obj.GetComponent<EnemyController>().GiveSprite((int)Random.Range(0, 2));
         }
         else
         {
-            Instantiate(goodObject, new Vector3(transform.GetChild((int)(Random.Range(0, (float)transform.childCount))).transform.position.x, this.transform.position.y, 0), Quaternion.identity);
+            var obj = Instantiate(goodObject, new Vector3(transform.GetChild((int)(Random.Range(0, (float)transform.childCount))).transform.position.x, this.transform.position.y, 0), Quaternion.identity);
+            obj.GetComponent<SpriteRenderer>().sprite = obj.GetComponent<EnemyController>().GiveSprite((int)Random.Range(0, 2));
         }
     }
 
     public void SpawnInitial()
     {
-
+        var obj = Instantiate(badObject, new Vector3(transform.GetChild((int)(Random.Range(0, (float)transform.childCount))).transform.position.x, this.transform.position.y, 0), Quaternion.identity);
+        obj.GetComponent<SpriteRenderer>().sprite = obj.GetComponent<EnemyController>().GiveSprite((int)Random.Range(0, 2));
     }
 }
