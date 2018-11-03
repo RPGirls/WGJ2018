@@ -2869,6 +2869,11 @@ Prefab:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 320972603235907572, guid: ed0a0f9f1c5efac4cbfa29a8893548d3,
+        type: 2}
+      propertyPath: m_SceneBindings.Array.size
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 4725659729391678, guid: ed0a0f9f1c5efac4cbfa29a8893548d3, type: 2}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -2900,6 +2905,20 @@ Prefab:
     - target: {fileID: 4725659729391678, guid: ed0a0f9f1c5efac4cbfa29a8893548d3, type: 2}
       propertyPath: m_RootOrder
       value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 320972603235907572, guid: ed0a0f9f1c5efac4cbfa29a8893548d3,
+        type: 2}
+      propertyPath: m_SceneBindings.Array.data[2].key
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 1966604058149170, guid: ed0a0f9f1c5efac4cbfa29a8893548d3, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 320972603235907572, guid: ed0a0f9f1c5efac4cbfa29a8893548d3,
+        type: 2}
+      propertyPath: m_InitialState
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: ed0a0f9f1c5efac4cbfa29a8893548d3, type: 2}
