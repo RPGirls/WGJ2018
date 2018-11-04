@@ -5,7 +5,6 @@ using UnityEngine.UI;
 
 public class DialogController : MonoBehaviour
 {
-
     public GameObject princess;
     public GameObject witch;
     public GameObject dialogueBox;
