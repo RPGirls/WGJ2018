@@ -98,8 +98,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2bc3f7e146ab42140b48572ceab235d6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  minSpeedFirst: 1
-  maxSpeedFirst: 2
+  minSpeedFirst: 2.5
+  maxSpeedFirst: 3
   minSpeedSecond: 5
   maxSpeedSecond: 5
   objects:
