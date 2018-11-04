@@ -18,6 +18,8 @@ public class DialogController : MonoBehaviour
     public Sprite[] thirdDialog;
     public Sprite[] forthDialog;
 
+    public GameObject fire;
+
     private Sprite[] currentDialog;
 
     private bool dialogIsOn = true;
@@ -26,6 +28,7 @@ public class DialogController : MonoBehaviour
 
     private void Start()
     {
+        fire.SetActive(false);
         currentDialog = firstDialog;
         tutorial.SetActive(true);
         StartDialog();
@@ -107,7 +110,7 @@ public class DialogController : MonoBehaviour
 
                 dialogueBox.transform.parent.transform.localPosition = new Vector3(2.15f, 2.7f, 0f);
             }
-            if (dialogNumber == 12 && currentDialog == firstDialog)
+            if (dialogNumber == 11 && currentDialog == firstDialog)
             {
                 spawner.GetComponent<SpawnerController>().SpawnInitial();
             }
@@ -141,7 +144,7 @@ public class DialogController : MonoBehaviour
                 FindObjectOfType<SceneController>().GetComponent<SceneController>().SecondRoom();
             }
 
-            if (dialogNumber == 9 && currentDialog == secondDialog)
+            if (dialogNumber == 8 && currentDialog == secondDialog)
             {
                 FindObjectOfType<SpawnerController>().GetComponent<SpawnerController>().SpawnInitial();
             }
@@ -183,9 +186,37 @@ public class DialogController : MonoBehaviour
             }
         }
 
+        if (currentDialog == thirdDialog)
+        {
+            GameObject[] cenarios;
+            cenarios = GameObject.FindGameObjectsWithTag("cenario");
+
+            foreach (GameObject cenario in cenarios)
+            {
+                cenario.GetComponent<ScrollBackground>().StartMoving();
+            }
+
+            princess.GetComponent<Animator>().SetTrigger("walk");
+            witch.GetComponent<Animator>().SetTrigger("walk");
+
+            foreach (GameObject obj in objs)
+            {
+                obj.GetComponent<EnemyController>().SetCanMove(true);
+            }
+
+            foreach (GameObject obj in objs02)
+            {
+                obj.GetComponent<EnemyController>().SetCanMove(true);
+            }
+
+            FindObjectOfType<SpawnerController>().GetComponent<SpawnerController>().ControlEnemies(true);
+        }
+
         if (currentDialog == secondDialog)
         {
-
+            fire.gameObject.SetActive(true);
+            ChangeDialog(3);
         }
     }
 }
+
