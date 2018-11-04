@@ -39,11 +39,15 @@ public class SceneController : MonoBehaviour
     public int pointsFirstRoom = 10;
     public int pointsSecondRoom = 5;
 
-   // public Color goodColorBackground;
+    // public Color goodColorBackground;
     public Color goodColorFill;
-   // public Color badColorBackground;
+    // public Color badColorBackground;
     public Color badColorFill;
     public Color initialColorFill;
+
+    public GameObject progression;
+
+    private bool finalCreditsBool = false;
 
     private void Awake()
     {
@@ -98,6 +102,8 @@ public class SceneController : MonoBehaviour
     {
         game.SetActive(false);
         finalCredits.SetActive(true);
+        finalCredits.GetComponent<PlayableDirector>().Play();
+        finalCreditsBool = true;
     }
 
     public void ControlsScreen()
@@ -152,12 +158,6 @@ public class SceneController : MonoBehaviour
 
     private void Update()
     {
-
-        if (Input.GetKeyDown(KeyCode.LeftShift) && intro.activeSelf)
-        {
-            intro.GetComponent<PlayableDirector>().Stop();
-        }
-
         if (Input.GetKeyDown(KeyCode.Escape))
         {
             if (!menuScreen.activeInHierarchy && !creditsScreen.activeInHierarchy && !finalCredits.activeInHierarchy)
@@ -183,6 +183,12 @@ public class SceneController : MonoBehaviour
 
             GameObject.FindGameObjectWithTag("progression").transform.GetChild(0).GetChild(1).GetChild(0).GetComponent<Image>().color = initialColorFill;
         }
+
+        if (finalCredits.GetComponent<PlayableDirector>().state != PlayState.Playing && finalCreditsBool)
+        {
+            var go = pauseScreen;
+            BackToMenu(go);
+        }
     }
 
     public void Counter(bool isGood)
@@ -207,7 +213,7 @@ public class SceneController : MonoBehaviour
         else
         {
 
-           // GameObject.FindGameObjectWithTag("progression").transform.GetChild(0).GetChild(0).GetComponent<Image>().color = badColorBackground;
+            // GameObject.FindGameObjectWithTag("progression").transform.GetChild(0).GetChild(0).GetComponent<Image>().color = badColorBackground;
             GameObject.FindGameObjectWithTag("progression").transform.GetChild(0).GetChild(1).GetChild(0).GetComponent<Image>().color = badColorFill;
 
             count -= points;
@@ -299,6 +305,7 @@ public class SceneController : MonoBehaviour
         witch.transform.localPosition = new Vector3(-395f, -235.39f, 0f);
         cenario01.SetActive(false);
         cenario02.SetActive(true);
+        progression.SetActive(false);
         for (int i = 0; i < fogo.Length; i++)
         {
             fogo[i].SetActive(false);
