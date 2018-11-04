@@ -99,7 +99,6 @@ MonoBehaviour:
   - {fileID: 21300000, guid: e065ecca16100409a908f609ad3cf8b6, type: 3}
   - {fileID: 21300000, guid: 64295acd49c6748f3a134c6f77641bf6, type: 3}
   - {fileID: 21300000, guid: 736437222d49e47af8b6ce014bc3907a, type: 3}
-  - {fileID: 21300000, guid: 8e29c40c736ef45c2a156c1ae709f461, type: 3}
   - {fileID: 21300000, guid: ca205eb933c82480e9b0392eaa56e939, type: 3}
   fire: {fileID: 0}
 --- !u!114 &114665484412344748
@@ -190,7 +189,7 @@ Canvas:
   m_SortingBucketNormalizedSize: 0
   m_AdditionalShaderChannelsFlag: 0
   m_SortingLayerID: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 2
   m_TargetDisplay: 0
 --- !u!224 &224366918089917574
 RectTransform:

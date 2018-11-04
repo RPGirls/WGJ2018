@@ -188,6 +188,8 @@ public class DialogController : MonoBehaviour
 
         if (currentDialog == thirdDialog)
         {
+            FindObjectOfType<SceneController>().GetComponent<SceneController>().ChangeToAudioRun();
+
             GameObject[] cenarios;
             cenarios = GameObject.FindGameObjectsWithTag("cenario");
 
@@ -197,6 +199,7 @@ public class DialogController : MonoBehaviour
             }
 
             princess.GetComponent<Animator>().SetTrigger("walk");
+            princess.GetComponent<Animator>().SetBool("walking", true);
             witch.GetComponent<Animator>().SetTrigger("walk");
 
             foreach (GameObject obj in objs)
@@ -210,6 +213,11 @@ public class DialogController : MonoBehaviour
             }
 
             FindObjectOfType<SpawnerController>().GetComponent<SpawnerController>().ControlEnemies(true);
+        }
+
+        if(currentDialog == forthDialog)
+        {
+            FindObjectOfType<SceneController>().GetComponent<SceneController>().FinalCreditsScreen();
         }
 
         if (currentDialog == secondDialog)
