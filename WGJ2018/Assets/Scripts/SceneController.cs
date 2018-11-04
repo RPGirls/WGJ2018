@@ -42,6 +42,9 @@ public class SceneController : MonoBehaviour
 
     private void Awake()
     {
+        audioSource.clip = treinamento;
+        audioSource.Play();
+
         menuScreen.SetActive(true);
         firstRoom.SetActive(false);
         secondRoom.SetActive(false);
@@ -57,8 +60,7 @@ public class SceneController : MonoBehaviour
 
     public void StartGame()
     {
-        audioSource.clip = treinamento;
-        audioSource.Play();
+        audioSource.Stop();
         Time.timeScale = 1f;
         menuScreen.SetActive(false);
         intro.SetActive(true);
@@ -99,7 +101,16 @@ public class SceneController : MonoBehaviour
 
     public void BackToMenu(GameObject screen)
     {
-        SceneManager.LoadScene("game");
+        if (screen.name == "Pause")
+        {
+            SceneManager.LoadScene("game");
+        }
+        else
+        {
+            screen.SetActive(false);
+            menuScreen.SetActive(true);
+        }
+
     }
 
     public void ExitGame()
@@ -150,8 +161,10 @@ public class SceneController : MonoBehaviour
 
         if (intro.GetComponent<PlayableDirector>().state != PlayState.Playing && !introOff)
         {
+            audioSource.clip = treinamento;
+            audioSource.Play();
+
             introOff = true;
-            Debug.Log("oi");
             intro.SetActive(false);
             firstRoom.SetActive(true);
             game.SetActive(true);
@@ -191,7 +204,6 @@ public class SceneController : MonoBehaviour
 
         GameObject.FindGameObjectWithTag("progression").transform.GetChild(0).GetComponent<Slider>().value = count;
 
-       // Debug.Log("count: " + count);
         if (numberOfEnemies == 6)
         {
             FindObjectOfType<SpawnerController>().GetComponent<SpawnerController>().ControlEnemies(true);
@@ -232,7 +244,7 @@ public class SceneController : MonoBehaviour
             {
                 FindObjectOfType<DialogController>().GetComponent<DialogController>().ChangeDialog(2);
             }
-            else if(FindObjectOfType<DialogController>().GetComponent<DialogController>().GetDialog() == 3)
+            else if (FindObjectOfType<DialogController>().GetComponent<DialogController>().GetDialog() == 3)
             {
                 FindObjectOfType<SpawnerController>().GetComponent<SpawnerController>().ControlEnemies(false);
 
