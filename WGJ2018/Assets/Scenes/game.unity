@@ -477,6 +477,11 @@ RectTransform:
   m_PrefabParentObject: {fileID: 224623549739393496, guid: 1f07520ef891dc648b5c45971e5a8898,
     type: 2}
   m_PrefabInternal: {fileID: 2111022095}
+--- !u!1 &362812774 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1335267194155188, guid: 1f07520ef891dc648b5c45971e5a8898,
+    type: 2}
+  m_PrefabInternal: {fileID: 2111022095}
 --- !u!1 &374861329 stripped
 GameObject:
   m_PrefabParentObject: {fileID: 1095824866812424, guid: a67c5eb8d935b2949a586e19e1fe9536,
@@ -2359,6 +2364,7 @@ MonoBehaviour:
   goodColorFill: {r: 0.16470589, g: 0.8509804, b: 0.3764706, a: 1}
   badColorFill: {r: 1, g: 0.28036973, b: 0.18396229, a: 1}
   initialColorFill: {r: 1, g: 1, b: 1, a: 1}
+  progression: {fileID: 362812774}
 --- !u!1001 &1761834526
 Prefab:
   m_ObjectHideFlags: 0
@@ -2790,6 +2796,10 @@ Prefab:
       propertyPath: m_SceneBindings.Array.data[14].value
       value: 
       objectReference: {fileID: 527173763}
+    - target: {fileID: 1095824866812424, guid: a67c5eb8d935b2949a586e19e1fe9536, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: a67c5eb8d935b2949a586e19e1fe9536, type: 2}
   m_IsPrefabParent: 0
@@ -3163,7 +3173,7 @@ Prefab:
       objectReference: {fileID: 1633279941}
     - target: {fileID: 1699667503595878, guid: 51c165b942a5627469f93ffbc9f4ac6c, type: 2}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 51c165b942a5627469f93ffbc9f4ac6c, type: 2}
