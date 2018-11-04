@@ -531,7 +531,7 @@ Transform:
   m_Children: []
   m_Father: {fileID: 4431019680421602}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 650.368}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -69.632}
 --- !u!4 &4353964802688114
 Transform:
   m_ObjectHideFlags: 1
@@ -850,7 +850,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1834884867859702}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -392.4506, y: -235.72736, z: 0}
+  m_LocalPosition: {x: -392.45, y: -235.75, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4477302203576334}
@@ -871,7 +871,7 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDrag: 0
   m_AngularDrag: 0.05
-  m_GravityScale: 1
+  m_GravityScale: 0
   m_Material: {fileID: 0}
   m_Interpolate: 0
   m_SleepingMode: 0
@@ -1308,16 +1308,16 @@ MonoBehaviour:
     - m_Bone: {fileID: 0}
       m_BoneTransform: {fileID: 4431019680421602}
       solverPosition: {x: 0, y: 0, z: 0}
-      solverRotation: {x: 0, y: 0, z: 0.95606863, w: -0.29314297}
+      solverRotation: {x: 0, y: 0, z: -0.86553544, w: 0.50084776}
       defaultLocalRotation: {x: 0, y: 0, z: -0.7071068, w: 0.7071068}
     - m_Bone: {fileID: 0}
       m_BoneTransform: {fileID: 4343483135359844}
       solverPosition: {x: 0, y: 0, z: 0}
-      solverRotation: {x: 0, y: 0, z: -0.96069884, w: 0.27759278}
+      solverRotation: {x: 0, y: 0, z: -0.5709394, w: 0.82099223}
       defaultLocalRotation: {x: 0, y: 0, z: -0.0117327, w: 0.9999312}
     m_Weight: 1
     m_RestoreDefaultPose: 1
-    targetPosition: {x: -0.23934937, y: -2.5043945, z: 0}
+    targetPosition: {x: 0.18612671, y: -2.744156, z: 0}
     flip: 1
 --- !u!114 &114851266880986694
 MonoBehaviour:
@@ -1345,7 +1345,7 @@ MonoBehaviour:
     - m_Bone: {fileID: 0}
       m_BoneTransform: {fileID: 4440882961726960}
       solverPosition: {x: 0, y: 0, z: 0}
-      solverRotation: {x: 0, y: 0, z: -0.98265, w: -0.18546958}
+      solverRotation: {x: 0, y: 0, z: 0.96964365, w: 0.24452229}
       defaultLocalRotation: {x: 0, y: 0, z: 0.7071068, w: 0.7071068}
     - m_Bone: {fileID: 0}
       m_BoneTransform: {fileID: 4572030724033782}
@@ -1354,7 +1354,7 @@ MonoBehaviour:
       defaultLocalRotation: {x: 0, y: 0, z: 0, w: 1}
     m_Weight: 1
     m_RestoreDefaultPose: 1
-    targetPosition: {x: -0.28326416, y: -2.4706268, z: 0}
+    targetPosition: {x: -1.002533, y: -2.9535217, z: 0}
     flip: 0
 --- !u!114 &114888262041914750
 MonoBehaviour:
