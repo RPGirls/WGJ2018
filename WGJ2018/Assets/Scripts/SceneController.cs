@@ -29,8 +29,6 @@ public class SceneController : MonoBehaviour
     public AudioClip treinamento;
     public AudioClip run;
 
-    public GameObject fade;
-
     private bool paused = false;
     private bool introOff = true;
     private bool isSecond = false;
@@ -69,23 +67,12 @@ public class SceneController : MonoBehaviour
         introOff = false;
     }
 
-    IEnumerator Fade(GameObject desliga, GameObject liga, GameObject liga02)
-    {
-        fade.GetComponent<Animator>().SetTrigger("fade");
-        yield return new WaitForSeconds(1f);
-        desliga.SetActive(false);
-        liga.SetActive(true);
-        liga02.SetActive(true);
-    }
 
     public void SecondRoom()
     {
-        var coroutine = Fade(firstRoom, secondRoom, null);
-        StartCoroutine(coroutine);
-        fade.GetComponent<Animator>().SetTrigger("fade");
         isSecond = true;
-        //firstRoom.SetActive(false);
-        // secondRoom.SetActive(true);
+        firstRoom.SetActive(false);
+        secondRoom.SetActive(true);
         count = 50;
         GameObject.FindGameObjectWithTag("progression").transform.GetChild(0).GetComponent<Slider>().value = count;
         Camera.main.orthographicSize = 5f;
@@ -101,7 +88,6 @@ public class SceneController : MonoBehaviour
 
     public void FinalCreditsScreen()
     {
-        fade.GetComponent<Animator>().SetTrigger("fade");
         game.SetActive(false);
         finalCredits.SetActive(true);
     }
@@ -174,15 +160,13 @@ public class SceneController : MonoBehaviour
 
         if (intro.GetComponent<PlayableDirector>().state != PlayState.Playing && !introOff)
         {
-            var coroutine = Fade(intro, firstRoom, game);
-            StartCoroutine(coroutine);
             audioSource.clip = treinamento;
             audioSource.Play();
 
             introOff = true;
-            // intro.SetActive(false);
-            // firstRoom.SetActive(true);
-            // game.SetActive(true);
+            intro.SetActive(false);
+            firstRoom.SetActive(true);
+            game.SetActive(true);
             isSecond = false;
             Camera.main.orthographicSize = 3.35f;
             Camera.main.gameObject.transform.position = new Vector3(-1f, -1.65f, -10f);
@@ -297,7 +281,6 @@ public class SceneController : MonoBehaviour
         witch.GetComponent<Animator>().SetTrigger("stop");
         princess.transform.localPosition = new Vector3(-392.45f, -235.75f, 0f);
         witch.transform.localPosition = new Vector3(-396f, -236f, 0f);
-        fade.GetComponent<Animator>().SetTrigger("fade");
         cenario01.SetActive(false);
         cenario02.SetActive(true);
         for (int i = 0; i < fogo.Length; i++)
