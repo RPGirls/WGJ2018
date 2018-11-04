@@ -19,11 +19,21 @@ public class ScrollBackground : MonoBehaviour
     {
         //Start the object moving.
         rb2d.velocity = new Vector2(scrollSpeed, 0);
+        if(gameObject.name == "casa")
+        {
+            StartCoroutine("WaitCasa");
+        }
     }
 
     public void StopScrolling()
     {
         rb2d.velocity = Vector2.zero;
+    }
+
+    IEnumerator WaitCasa()
+    {
+        yield return new WaitForSeconds(2f);
+        StopScrolling();
     }
 
     private BoxCollider2D groundCollider;       //This stores a reference to the collider attached to the Ground.
