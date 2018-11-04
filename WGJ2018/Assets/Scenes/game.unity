@@ -3692,6 +3692,26 @@ Prefab:
       propertyPath: m_RootOrder
       value: 4
       objectReference: {fileID: 0}
+    - target: {fileID: 114235847780458590, guid: 076d9477166a8cf429f54bdd240e1cc1,
+        type: 2}
+      propertyPath: minTimeToSpawnFirst
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 114235847780458590, guid: 076d9477166a8cf429f54bdd240e1cc1,
+        type: 2}
+      propertyPath: maxTimeToSpawnFirst
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 114235847780458590, guid: 076d9477166a8cf429f54bdd240e1cc1,
+        type: 2}
+      propertyPath: minTimeToSpawnSecond
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 114235847780458590, guid: 076d9477166a8cf429f54bdd240e1cc1,
+        type: 2}
+      propertyPath: maxTimeToSpawnSecond
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 076d9477166a8cf429f54bdd240e1cc1, type: 2}
   m_IsPrefabParent: 0
@@ -3765,8 +3785,11 @@ MonoBehaviour:
   audioSource: {fileID: 1956198753}
   treinamento: {fileID: 8300000, guid: 131477b4eff4d447fbee926db486319b, type: 3}
   run: {fileID: 8300000, guid: 849feff3b78c4483daf9da48d45914aa, type: 3}
-  pointsFirstRoom: 10
-  pointsSecondRoom: 5
+  pointsFirstRoom: 5
+  pointsSecondRoom: 1
+  goodColorFill: {r: 0, g: 1, b: 0.93181825, a: 1}
+  badColorFill: {r: 1, g: 0, b: 0.009137154, a: 1}
+  initialColorFill: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1 &1659805860
 GameObject:
   m_ObjectHideFlags: 0
@@ -5079,6 +5102,36 @@ Prefab:
         type: 2}
       propertyPath: m_AnchorMax.y
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114768081009923240, guid: 1f07520ef891dc648b5c45971e5a8898,
+        type: 2}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114768081009923240, guid: 1f07520ef891dc648b5c45971e5a8898,
+        type: 2}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114768081009923240, guid: 1f07520ef891dc648b5c45971e5a8898,
+        type: 2}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114317423023463930, guid: 1f07520ef891dc648b5c45971e5a8898,
+        type: 2}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114317423023463930, guid: 1f07520ef891dc648b5c45971e5a8898,
+        type: 2}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114317423023463930, guid: 1f07520ef891dc648b5c45971e5a8898,
+        type: 2}
+      propertyPath: m_Color.b
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1f07520ef891dc648b5c45971e5a8898, type: 2}

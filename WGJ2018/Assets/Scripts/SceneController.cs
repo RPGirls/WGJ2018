@@ -39,6 +39,12 @@ public class SceneController : MonoBehaviour
     public int pointsFirstRoom = 10;
     public int pointsSecondRoom = 5;
 
+   // public Color goodColorBackground;
+    public Color goodColorFill;
+   // public Color badColorBackground;
+    public Color badColorFill;
+    public Color initialColorFill;
+
     private void Awake()
     {
         audioSource.clip = treinamento;
@@ -79,6 +85,8 @@ public class SceneController : MonoBehaviour
         Camera.main.gameObject.transform.position = new Vector3(0f, 0f, -10f);
         FindObjectOfType<SpawnerController>().transform.localScale = new Vector3(111.2f, 5.5f, 1f);
         FindObjectOfType<SpawnerController>().transform.localPosition = new Vector3(-383.8f, -227.4f, 1f);
+
+        GameObject.FindGameObjectWithTag("progression").transform.GetChild(0).GetChild(1).GetChild(0).GetComponent<Image>().color = initialColorFill;
     }
 
     public void CreditsScreen()
@@ -172,6 +180,8 @@ public class SceneController : MonoBehaviour
             Camera.main.gameObject.transform.position = new Vector3(-1f, -1.65f, -10f);
             FindObjectOfType<SpawnerController>().transform.localScale = new Vector3(75.75f, 3.75f, 1f);
             FindObjectOfType<SpawnerController>().transform.localPosition = new Vector3(-387.52f, -230.32f, 1f);
+
+            GameObject.FindGameObjectWithTag("progression").transform.GetChild(0).GetChild(1).GetChild(0).GetComponent<Image>().color = initialColorFill;
         }
     }
 
@@ -190,10 +200,16 @@ public class SceneController : MonoBehaviour
         }
         if (isGood)
         {
+            //GameObject.FindGameObjectWithTag("progression").transform.GetChild(0).GetChild(0).GetComponent<Image>().color = goodColorBackground;
+            GameObject.FindGameObjectWithTag("progression").transform.GetChild(0).GetChild(1).GetChild(0).GetComponent<Image>().color = goodColorFill;
             count += points;
         }
         else
         {
+
+           // GameObject.FindGameObjectWithTag("progression").transform.GetChild(0).GetChild(0).GetComponent<Image>().color = badColorBackground;
+            GameObject.FindGameObjectWithTag("progression").transform.GetChild(0).GetChild(1).GetChild(0).GetComponent<Image>().color = badColorFill;
+
             count -= points;
             if (count < 0)
             {
