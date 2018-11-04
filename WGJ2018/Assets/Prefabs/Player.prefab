@@ -1446,7 +1446,7 @@ SkinnedMeshRenderer:
   m_Quality: 0
   m_UpdateWhenOffscreen: 0
   m_SkinnedMotionVectors: 1
-  m_Mesh: {fileID: 0}
+  m_Mesh: {fileID: 43640614028069054, guid: 60f61d7258d537c42bb3d8e6e7b9bdff, type: 2}
   m_Bones:
   - {fileID: 4839180364024734}
   - {fileID: 4849133002102358}
@@ -1495,7 +1495,7 @@ SkinnedMeshRenderer:
   m_Quality: 0
   m_UpdateWhenOffscreen: 0
   m_SkinnedMotionVectors: 1
-  m_Mesh: {fileID: 0}
+  m_Mesh: {fileID: 43542507318817916, guid: f6c4c89c3abeac04f9eb0dac1928e54e, type: 2}
   m_Bones:
   - {fileID: 4630414378552538}
   m_BlendShapeWeights: []
@@ -1543,7 +1543,7 @@ SkinnedMeshRenderer:
   m_Quality: 0
   m_UpdateWhenOffscreen: 0
   m_SkinnedMotionVectors: 1
-  m_Mesh: {fileID: 0}
+  m_Mesh: {fileID: 43268351314196268, guid: db0337fef2cfad9419a9ea276a60d972, type: 2}
   m_Bones:
   - {fileID: 4763756773512716}
   - {fileID: 4763420803500894}
@@ -1592,7 +1592,7 @@ SkinnedMeshRenderer:
   m_Quality: 0
   m_UpdateWhenOffscreen: 0
   m_SkinnedMotionVectors: 1
-  m_Mesh: {fileID: 0}
+  m_Mesh: {fileID: 43838035591240870, guid: 26d55ac703297e3408dbcb63f242b07a, type: 2}
   m_Bones:
   - {fileID: 4431019680421602}
   - {fileID: 4343483135359844}
@@ -1641,7 +1641,7 @@ SkinnedMeshRenderer:
   m_Quality: 0
   m_UpdateWhenOffscreen: 0
   m_SkinnedMotionVectors: 1
-  m_Mesh: {fileID: 0}
+  m_Mesh: {fileID: 43838035591240870, guid: fbca2d6346bcaac41a00108c74d4dbf7, type: 2}
   m_Bones:
   - {fileID: 4440882961726960}
   - {fileID: 4572030724033782}
@@ -1690,7 +1690,7 @@ SkinnedMeshRenderer:
   m_Quality: 0
   m_UpdateWhenOffscreen: 0
   m_SkinnedMotionVectors: 1
-  m_Mesh: {fileID: 0}
+  m_Mesh: {fileID: 43268351314196268, guid: 962f65030cb97bc4b9a7939b78120096, type: 2}
   m_Bones:
   - {fileID: 4401667827013892}
   - {fileID: 4132548336726578}
@@ -1739,7 +1739,7 @@ SkinnedMeshRenderer:
   m_Quality: 0
   m_UpdateWhenOffscreen: 0
   m_SkinnedMotionVectors: 1
-  m_Mesh: {fileID: 0}
+  m_Mesh: {fileID: 43599009558488548, guid: 3879f247e405db641a888c2c8917665b, type: 2}
   m_Bones:
   - {fileID: 4916262732890908}
   m_BlendShapeWeights: []
