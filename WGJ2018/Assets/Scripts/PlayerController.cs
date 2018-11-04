@@ -33,14 +33,14 @@ public class PlayerController : MonoBehaviour
         {
             Debug.Log("bad");
             Destroy(col.gameObject);
+            FindObjectOfType<SceneController>().GetComponent<SceneController>().Counter(false);
         }
         if (col.gameObject.tag == "goodObject")
         {
             Debug.Log("good");
             Destroy(col.gameObject);
+            FindObjectOfType<SceneController>().GetComponent<SceneController>().Counter(true);
         }
-
-        FindObjectOfType<SceneController>().GetComponent<SceneController>().Counter();
     }
 
     public void ChangeCanBubble(bool can)
