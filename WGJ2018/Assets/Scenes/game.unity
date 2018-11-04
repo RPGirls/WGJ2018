@@ -3769,6 +3769,7 @@ MonoBehaviour:
   pointsSecondRoom: 5
   goodColorFill: {r: 0, g: 1, b: 0.93181825, a: 1}
   badColorFill: {r: 1, g: 0, b: 0.009137154, a: 1}
+  initialColorFill: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1 &1659805860
 GameObject:
   m_ObjectHideFlags: 0
