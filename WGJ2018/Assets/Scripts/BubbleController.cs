@@ -8,6 +8,7 @@ public class BubbleController : MonoBehaviour
     {
         if (col.gameObject.tag == "badObject")
         {
+
             Destroy(col.gameObject);
             FindObjectOfType<SceneController>().GetComponent<SceneController>().Counter(true);
         }
