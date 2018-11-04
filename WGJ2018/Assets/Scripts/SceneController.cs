@@ -25,6 +25,11 @@ public class SceneController : MonoBehaviour
     public GameObject cenario02;
     public GameObject fogo;
 
+    public AudioSource audioSource;
+    public AudioClip treinamento;
+    public AudioClip run;
+
+
     private bool paused = false;
     private bool introOff = true;
     private bool isSecond = false;
@@ -52,6 +57,8 @@ public class SceneController : MonoBehaviour
 
     public void StartGame()
     {
+        audioSource.clip = treinamento;
+        audioSource.Play();
         Time.timeScale = 1f;
         menuScreen.SetActive(false);
         intro.SetActive(true);
@@ -127,6 +134,12 @@ public class SceneController : MonoBehaviour
 
     private void Update()
     {
+
+        if (Input.GetKeyDown(KeyCode.LeftShift) && intro.activeSelf)
+        {
+            intro.GetComponent<PlayableDirector>().Stop();
+        }
+
         if (Input.GetKeyDown(KeyCode.Escape))
         {
             if (!menuScreen.activeInHierarchy && !creditsScreen.activeInHierarchy && !finalCredits.activeInHierarchy)
@@ -266,5 +279,11 @@ public class SceneController : MonoBehaviour
     public bool isSecondRoom()
     {
         return isSecond;
+    }
+
+    public void ChangeToAudioRun()
+    {
+        audioSource.clip = run;
+        audioSource.Play();
     }
 }

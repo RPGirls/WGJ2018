@@ -188,6 +188,8 @@ public class DialogController : MonoBehaviour
 
         if (currentDialog == thirdDialog)
         {
+            FindObjectOfType<SceneController>().GetComponent<SceneController>().ChangeToAudioRun();
+
             GameObject[] cenarios;
             cenarios = GameObject.FindGameObjectsWithTag("cenario");
 
