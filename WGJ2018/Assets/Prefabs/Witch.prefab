@@ -800,7 +800,7 @@ Transform:
   - {fileID: 4800580114785946}
   m_Father: {fileID: 4226077626522604}
   m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 170.091}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 170.09201}
 --- !u!4 &4762655163253576
 Transform:
   m_ObjectHideFlags: 1
@@ -821,7 +821,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1032093253377142}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -396, y: -236, z: 0}
+  m_LocalPosition: {x: -397.07, y: -235.39, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4890245580507538}
@@ -993,7 +993,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 0
   m_CollisionDetection: 0
-  m_Constraints: 6
+  m_Constraints: 7
 --- !u!95 &95393191446825220
 Animator:
   serializedVersion: 3
@@ -1047,7 +1047,7 @@ MonoBehaviour:
       defaultLocalRotation: {x: 0, y: 0, z: 0, w: 1}
     m_Weight: 1
     m_RestoreDefaultPose: 1
-    targetPosition: {x: -394.7589, y: -235.59273, z: -0.671085}
+    targetPosition: {x: -3.4877625, y: -1.9580078, z: 0}
     flip: 0
 --- !u!114 &114033027941651458
 MonoBehaviour:
@@ -1205,7 +1205,7 @@ MonoBehaviour:
       defaultLocalRotation: {x: 0, y: 0, z: -0.0117327, w: 0.9999312}
     m_Weight: 1
     m_RestoreDefaultPose: 1
-    targetPosition: {x: -397.51108, y: -235.59576, z: -0.671085}
+    targetPosition: {x: -6.239929, y: -1.9610443, z: 0}
     flip: 1
 --- !u!114 &114628022525565074
 MonoBehaviour:
@@ -1258,7 +1258,7 @@ MonoBehaviour:
       defaultLocalRotation: {x: 0, y: 0, z: 0, w: 1}
     m_Weight: 1
     m_RestoreDefaultPose: 1
-    targetPosition: {x: -396.78165, y: -237.62865, z: -0.671085}
+    targetPosition: {x: -5.510498, y: -3.993927, z: 0}
     flip: 0
 --- !u!114 &114707845807808658
 MonoBehaviour:
@@ -1458,7 +1458,7 @@ MonoBehaviour:
       defaultLocalRotation: {x: 0, y: 0, z: 0.008300125, w: 0.9999656}
     m_Weight: 1
     m_RestoreDefaultPose: 1
-    targetPosition: {x: -396.09277, y: -237.8988, z: -0.671085}
+    targetPosition: {x: -4.8216248, y: -4.264084, z: 0}
     flip: 0
 --- !u!114 &114976827218781796
 MonoBehaviour:
