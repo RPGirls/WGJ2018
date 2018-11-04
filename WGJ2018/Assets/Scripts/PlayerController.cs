@@ -6,6 +6,10 @@ public class PlayerController : MonoBehaviour
 {
     public GameObject bubble;
     public GameObject tutorial;
+    public AudioSource bubbleAudio;
+
+    public AudioClip bubbleOnAudio;
+    public AudioClip bubbleOffAudio;
 
     private bool bubbleOn = true;
 
@@ -17,10 +21,14 @@ public class PlayerController : MonoBehaviour
         {
             if (bubbleOn)
             {
+                bubbleAudio.clip = bubbleOffAudio;
+                bubbleAudio.Play();
                 bubble.SetActive(false);
             }
             else
             {
+                bubbleAudio.clip = bubbleOnAudio;
+                bubbleAudio.Play();
                 bubble.SetActive(true);
             }
 
@@ -44,7 +52,7 @@ public class PlayerController : MonoBehaviour
         }
         if (col.gameObject.tag == "goodObject")
         {
-           // Debug.Log("good");
+            // Debug.Log("good");
             gameObject.GetComponent<Animator>().SetTrigger("absorve");
             Destroy(col.gameObject);
             FindObjectOfType<SceneController>().GetComponent<SceneController>().Counter(true);
