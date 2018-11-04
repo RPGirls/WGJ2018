@@ -23,6 +23,7 @@ public class SceneController : MonoBehaviour
 
     public GameObject cenario01;
     public GameObject cenario02;
+    public GameObject fogo;
 
     private bool paused = false;
     private bool introOff = true;
@@ -75,6 +76,12 @@ public class SceneController : MonoBehaviour
     {
         menuScreen.SetActive(false);
         creditsScreen.SetActive(true);
+    }
+
+    public void FinalCreditsScreen()
+    {
+        game.SetActive(false);
+        finalCredits.SetActive(true);
     }
 
     public void ControlsScreen()
@@ -171,7 +178,7 @@ public class SceneController : MonoBehaviour
 
         GameObject.FindGameObjectWithTag("progression").transform.GetChild(0).GetComponent<Slider>().value = count;
 
-        Debug.Log("count: " + count);
+       // Debug.Log("count: " + count);
         if (numberOfEnemies == 6)
         {
             FindObjectOfType<SpawnerController>().GetComponent<SpawnerController>().ControlEnemies(true);
@@ -190,7 +197,7 @@ public class SceneController : MonoBehaviour
                 {
                     obj.GetComponent<EnemyController>().SetCanMove(false);
                 }
-                else
+                else if (FindObjectOfType<DialogController>().GetComponent<DialogController>().GetDialog() == 3)
                 {
                     Destroy(obj);
                 }
@@ -202,7 +209,7 @@ public class SceneController : MonoBehaviour
                 {
                     obj.GetComponent<EnemyController>().SetCanMove(false);
                 }
-                else
+                else if (FindObjectOfType<DialogController>().GetComponent<DialogController>().GetDialog() == 3)
                 {
                     Destroy(obj);
                 }
@@ -212,8 +219,10 @@ public class SceneController : MonoBehaviour
             {
                 FindObjectOfType<DialogController>().GetComponent<DialogController>().ChangeDialog(2);
             }
-            else
+            else if(FindObjectOfType<DialogController>().GetComponent<DialogController>().GetDialog() == 3)
             {
+                FindObjectOfType<SpawnerController>().GetComponent<SpawnerController>().ControlEnemies(false);
+
                 GameObject[] cenarios;
                 cenarios = GameObject.FindGameObjectsWithTag("cenario");
 
@@ -221,6 +230,7 @@ public class SceneController : MonoBehaviour
                 {
                     cenario.GetComponent<ScrollBackground>().StopScrolling();
                 }
+                princess.GetComponent<PlayerController>().ChangeCanBubble(false);
                 bubble.SetActive(false);
                 princess.GetComponent<Rigidbody2D>().constraints = RigidbodyConstraints2D.None;
                 princess.GetComponent<Rigidbody2D>().constraints = RigidbodyConstraints2D.FreezePositionY;
@@ -239,12 +249,17 @@ public class SceneController : MonoBehaviour
 
     IEnumerator WaitToWin()
     {
-        yield return new WaitForSeconds(1f);
-        princess.transform.position = new Vector3(-392.45f, -235.75f, 0f);
-        bubble.transform.position = new Vector3(-392.45f, -235.75f, 0f);
-        witch.transform.position = new Vector3(-396f, -236f, 0f);
+        yield return new WaitForSeconds(5f);
+        princess.GetComponent<Rigidbody2D>().velocity = Vector2.zero;
+        witch.GetComponent<Rigidbody2D>().velocity = Vector2.zero;
+        princess.GetComponent<Animator>().SetBool("walking", false);
+        princess.GetComponent<Animator>().SetTrigger("stop");
+        witch.GetComponent<Animator>().SetTrigger("stop");
+        princess.transform.localPosition = new Vector3(-392.45f, -235.75f, 0f);
+        witch.transform.localPosition = new Vector3(-396f, -236f, 0f);
         cenario01.SetActive(false);
         cenario02.SetActive(true);
+        fogo.SetActive(false);
         FindObjectOfType<DialogController>().GetComponent<DialogController>().ChangeDialog(4);
     }
 
