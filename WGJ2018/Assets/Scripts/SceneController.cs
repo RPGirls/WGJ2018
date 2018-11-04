@@ -39,6 +39,11 @@ public class SceneController : MonoBehaviour
     public int pointsFirstRoom = 10;
     public int pointsSecondRoom = 5;
 
+   // public Color goodColorBackground;
+    public Color goodColorFill;
+   // public Color badColorBackground;
+    public Color badColorFill;
+
     private void Awake()
     {
         audioSource.clip = treinamento;
@@ -190,10 +195,16 @@ public class SceneController : MonoBehaviour
         }
         if (isGood)
         {
+            //GameObject.FindGameObjectWithTag("progression").transform.GetChild(0).GetChild(0).GetComponent<Image>().color = goodColorBackground;
+            GameObject.FindGameObjectWithTag("progression").transform.GetChild(0).GetChild(1).GetChild(0).GetComponent<Image>().color = goodColorFill;
             count += points;
         }
         else
         {
+
+           // GameObject.FindGameObjectWithTag("progression").transform.GetChild(0).GetChild(0).GetComponent<Image>().color = badColorBackground;
+            GameObject.FindGameObjectWithTag("progression").transform.GetChild(0).GetChild(1).GetChild(0).GetComponent<Image>().color = badColorFill;
+
             count -= points;
             if (count < 0)
             {
