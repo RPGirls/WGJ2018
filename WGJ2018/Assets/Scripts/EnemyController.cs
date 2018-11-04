@@ -5,8 +5,11 @@ using UnityEngine;
 public class EnemyController : MonoBehaviour
 {
     public Transform target;
-    public float minSpeed = 0f;
-    public float maxSpeed = 0f;
+    public float minSpeedFirst = 0f;
+    public float maxSpeedFirst = 0f;
+
+    public float minSpeedSecond = 0f;
+    public float maxSpeedSecond = 0f;
 
     private float speed = 0f;
 
@@ -20,7 +23,15 @@ public class EnemyController : MonoBehaviour
 
     private void Start()
     {
-        speed = Random.Range(minSpeed, maxSpeed);
+        if (FindObjectOfType<SceneController>().GetComponent<SceneController>().isSecondRoom())
+        {
+            speed = Random.Range(minSpeedSecond, maxSpeedSecond);
+        }
+        else
+        {
+            speed = Random.Range(minSpeedFirst, maxSpeedFirst);
+        }
+
     }
 
     void Update()
