@@ -158,12 +158,6 @@ public class SceneController : MonoBehaviour
 
     private void Update()
     {
-
-        if (Input.GetKeyDown(KeyCode.LeftShift) && intro.activeSelf)
-        {
-            intro.GetComponent<PlayableDirector>().Stop();
-        }
-
         if (Input.GetKeyDown(KeyCode.Escape))
         {
             if (!menuScreen.activeInHierarchy && !creditsScreen.activeInHierarchy && !finalCredits.activeInHierarchy)
