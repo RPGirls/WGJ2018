@@ -62,6 +62,7 @@ MonoBehaviour:
   witch: {fileID: 0}
   dialogueBox: {fileID: 1181810605501134}
   spawner: {fileID: 0}
+  tutorial: {fileID: 0}
   firstDialog:
   - {fileID: 21300000, guid: 36f51d7bf2c284030b29f85a6dad7a7d, type: 3}
   - {fileID: 21300000, guid: f9cd07cbacb864d30b5183aef8182f8f, type: 3}
@@ -87,8 +88,20 @@ MonoBehaviour:
   - {fileID: 21300000, guid: d6a001eb2a6e54368a43fb7437c41d7f, type: 3}
   - {fileID: 21300000, guid: 2c9ca8214caac4548b1693a07dd3c3e3, type: 3}
   - {fileID: 21300000, guid: 678f966c6b0a1435da0392b4546d42c7, type: 3}
-  thirdDialog: []
-  forthDialog: []
+  thirdDialog:
+  - {fileID: 21300000, guid: 5cddd77da232b464ea758259171bc60f, type: 3}
+  - {fileID: 21300000, guid: 86ec1a74b0b1b450b87420d0892c0326, type: 3}
+  - {fileID: 21300000, guid: 2962ba94974a9418c946ea0bc00b8c3b, type: 3}
+  forthDialog:
+  - {fileID: 21300000, guid: ba09d474f91c54e6ebe14980bcef3219, type: 3}
+  - {fileID: 21300000, guid: 75ce301bb174d4b20b4a3f55005d6a05, type: 3}
+  - {fileID: 21300000, guid: f1cdbd96aff96414aa1ed0fdcf6e109c, type: 3}
+  - {fileID: 21300000, guid: 871c7041ae82940fbb68ace28dd7335e, type: 3}
+  - {fileID: 21300000, guid: e065ecca16100409a908f609ad3cf8b6, type: 3}
+  - {fileID: 21300000, guid: 64295acd49c6748f3a134c6f77641bf6, type: 3}
+  - {fileID: 21300000, guid: 736437222d49e47af8b6ce014bc3907a, type: 3}
+  - {fileID: 21300000, guid: 8e29c40c736ef45c2a156c1ae709f461, type: 3}
+  - {fileID: 21300000, guid: ca205eb933c82480e9b0392eaa56e939, type: 3}
 --- !u!114 &114665484412344748
 MonoBehaviour:
   m_ObjectHideFlags: 1

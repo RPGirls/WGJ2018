@@ -13,7 +13,10 @@ public class ScrollBackground : MonoBehaviour
     {
         //Get and store a reference to the Rigidbody2D attached to this GameObject.
         rb2d = GetComponent<Rigidbody2D>();
+    }
 
+    public void StartMoving()
+    {
         //Start the object moving.
         rb2d.velocity = new Vector2(scrollSpeed, 0);
     }
