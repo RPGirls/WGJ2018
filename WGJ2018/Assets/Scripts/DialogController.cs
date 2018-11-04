@@ -142,11 +142,6 @@ public class DialogController : MonoBehaviour
                 FindObjectOfType<SceneController>().GetComponent<SceneController>().SecondRoom();
             }
 
-            if (dialogNumber == 8 && currentDialog == secondDialog)
-            {
-                FindObjectOfType<SpawnerController>().GetComponent<SpawnerController>().SpawnInitial();
-            }
-
             dialogueBox.GetComponent<Image>().sprite = currentDialog[dialogNumber];
             dialogNumber++;
         }
@@ -222,16 +217,6 @@ public class DialogController : MonoBehaviour
 
         if (currentDialog == secondDialog)
         {
-            foreach (GameObject obj in objs)
-            {
-                Destroy(obj);
-            }
-
-            foreach (GameObject obj in objs02)
-            {
-                Destroy(obj);
-            }
-
             for (int i = 0; i < fire.Length; i++)
             {
                 fire[i].SetActive(true);
