@@ -37,14 +37,14 @@ public class PlayerController : MonoBehaviour
     {
         if (col.gameObject.tag == "badObject")
         {
-            Debug.Log("bad");
+            //Debug.Log("bad");
             gameObject.GetComponent<Animator>().SetTrigger("dano");
             Destroy(col.gameObject);
             FindObjectOfType<SceneController>().GetComponent<SceneController>().Counter(false);
         }
         if (col.gameObject.tag == "goodObject")
         {
-            Debug.Log("good");
+           // Debug.Log("good");
             gameObject.GetComponent<Animator>().SetTrigger("absorve");
             Destroy(col.gameObject);
             FindObjectOfType<SceneController>().GetComponent<SceneController>().Counter(true);
