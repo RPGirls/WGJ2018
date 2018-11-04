@@ -19,6 +19,7 @@ public class SceneController : MonoBehaviour
 
     private bool paused = false;
     private bool introOff = true;
+    private bool isSecond = false;
 
     private int count = 50;
     private int numberOfEnemies = 0;
@@ -51,6 +52,7 @@ public class SceneController : MonoBehaviour
 
     public void SecondRoom()
     {
+        isSecond = true;
         firstRoom.SetActive(false);
         secondRoom.SetActive(true);
         count = 50;
@@ -119,6 +121,7 @@ public class SceneController : MonoBehaviour
 
         if (intro.GetComponent<PlayableDirector>().state != PlayState.Playing && !introOff)
         {
+            isSecond = false;
             introOff = true;
             intro.SetActive(false);
             firstRoom.SetActive(true);
@@ -177,5 +180,10 @@ public class SceneController : MonoBehaviour
     public void Win()
     {
         FindObjectOfType<ScrollBackground>().StopScrolling();
+    }
+
+    public bool isSecondRoom()
+    {
+        return isSecond;
     }
 }

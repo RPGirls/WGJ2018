@@ -4,8 +4,10 @@ using UnityEngine;
 
 public class SpawnerController : MonoBehaviour
 {
-    public float minTimeToSpawn;
-    public float maxTimeToSpawn;
+    public float minTimeToSpawnFirst;
+    public float maxTimeToSpawnFirst;
+    public float minTimeToSpawnSecond;
+    public float maxTimeToSpawnSecond;
     public GameObject badObject;
     public GameObject goodObject;
     public float initialObjectsSpeed = 0.5f;
@@ -32,7 +34,15 @@ public class SpawnerController : MonoBehaviour
 
     IEnumerator EnemySpawner()
     {
-        float time = Random.Range(minTimeToSpawn, maxTimeToSpawn);
+        float time;
+        if (FindObjectOfType<SceneController>().GetComponent<SceneController>().isSecondRoom())
+        {
+            time = Random.Range(minTimeToSpawnFirst, maxTimeToSpawnFirst);
+        } else
+        {
+            time = Random.Range(minTimeToSpawnSecond, maxTimeToSpawnSecond);
+        }
+            
         yield return new WaitForSeconds(time);
         SpawnEnemy();
         StartCoroutine("EnemySpawner");
