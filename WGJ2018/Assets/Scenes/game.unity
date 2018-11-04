@@ -3692,6 +3692,26 @@ Prefab:
       propertyPath: m_RootOrder
       value: 4
       objectReference: {fileID: 0}
+    - target: {fileID: 114235847780458590, guid: 076d9477166a8cf429f54bdd240e1cc1,
+        type: 2}
+      propertyPath: minTimeToSpawnFirst
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 114235847780458590, guid: 076d9477166a8cf429f54bdd240e1cc1,
+        type: 2}
+      propertyPath: maxTimeToSpawnFirst
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 114235847780458590, guid: 076d9477166a8cf429f54bdd240e1cc1,
+        type: 2}
+      propertyPath: minTimeToSpawnSecond
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 114235847780458590, guid: 076d9477166a8cf429f54bdd240e1cc1,
+        type: 2}
+      propertyPath: maxTimeToSpawnSecond
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 076d9477166a8cf429f54bdd240e1cc1, type: 2}
   m_IsPrefabParent: 0
@@ -3765,8 +3785,8 @@ MonoBehaviour:
   audioSource: {fileID: 1956198753}
   treinamento: {fileID: 8300000, guid: 131477b4eff4d447fbee926db486319b, type: 3}
   run: {fileID: 8300000, guid: 849feff3b78c4483daf9da48d45914aa, type: 3}
-  pointsFirstRoom: 10
-  pointsSecondRoom: 5
+  pointsFirstRoom: 5
+  pointsSecondRoom: 1
   goodColorFill: {r: 0, g: 1, b: 0.93181825, a: 1}
   badColorFill: {r: 1, g: 0, b: 0.009137154, a: 1}
   initialColorFill: {r: 1, g: 1, b: 1, a: 1}
