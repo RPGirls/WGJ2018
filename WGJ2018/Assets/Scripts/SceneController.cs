@@ -29,7 +29,6 @@ public class SceneController : MonoBehaviour
     public AudioClip treinamento;
     public AudioClip run;
 
-
     private bool paused = false;
     private bool introOff = true;
     private bool isSecond = false;
@@ -68,6 +67,7 @@ public class SceneController : MonoBehaviour
         introOff = false;
     }
 
+
     public void SecondRoom()
     {
         isSecond = true;
@@ -83,7 +83,6 @@ public class SceneController : MonoBehaviour
 
     public void CreditsScreen()
     {
-        menuScreen.SetActive(false);
         creditsScreen.SetActive(true);
     }
 
@@ -280,11 +279,11 @@ public class SceneController : MonoBehaviour
         princess.GetComponent<Animator>().SetBool("walking", false);
         princess.GetComponent<Animator>().SetTrigger("stop");
         witch.GetComponent<Animator>().SetTrigger("stop");
-        princess.transform.localPosition = new Vector3(-392.45f, -235.75f, 0f);
-        witch.transform.localPosition = new Vector3(-396f, -236f, 0f);
+        princess.transform.localPosition = new Vector3(-391.52f, -235.75f, 0f);
+        witch.transform.localPosition = new Vector3(-397.07f, -235.39f, 0f);
         cenario01.SetActive(false);
         cenario02.SetActive(true);
-        for(int i = 0; i<fogo.Length; i++)
+        for (int i = 0; i < fogo.Length; i++)
         {
             fogo[i].SetActive(false);
         }

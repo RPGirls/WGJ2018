@@ -5,7 +5,6 @@ using UnityEngine.UI;
 
 public class DialogController : MonoBehaviour
 {
-
     public GameObject princess;
     public GameObject witch;
     public GameObject dialogueBox;
@@ -100,7 +99,7 @@ public class DialogController : MonoBehaviour
             {
                 dialogueBox.transform.parent.SetParent(princess.transform);
 
-                dialogueBox.transform.parent.transform.localPosition = new Vector3(-2.17f, 2.75f, 0f);
+                dialogueBox.transform.parent.transform.localPosition = new Vector3(-2.17f, 2.95f, 0f);
             }
 
             if (currentDialog[dialogNumber].name.Contains("Witch"))

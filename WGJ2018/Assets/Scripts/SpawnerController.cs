@@ -37,10 +37,10 @@ public class SpawnerController : MonoBehaviour
         float time;
         if (FindObjectOfType<SceneController>().GetComponent<SceneController>().isSecondRoom())
         {
-            time = Random.Range(minTimeToSpawnFirst, maxTimeToSpawnFirst);
+            time = Random.Range(minTimeToSpawnSecond, maxTimeToSpawnSecond);
         } else
         {
-            time = Random.Range(minTimeToSpawnSecond, maxTimeToSpawnSecond);
+            time = Random.Range(minTimeToSpawnFirst, maxTimeToSpawnFirst);
         }
             
         yield return new WaitForSeconds(time);
