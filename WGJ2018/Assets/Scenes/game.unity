@@ -592,7 +592,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &170644058
 Transform:
   m_ObjectHideFlags: 0
@@ -600,7 +600,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 170644057}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -392.16058, y: -233.04736, z: -0.671085}
+  m_LocalPosition: {x: -392.16058, y: -233.04736, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1876025446}
@@ -942,7 +942,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &402946215
 Transform:
   m_ObjectHideFlags: 0
@@ -950,7 +950,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 402946214}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -392.16058, y: -233.04736, z: -0.671085}
+  m_LocalPosition: {x: -392.16058, y: -233.04736, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 967647767}
@@ -2031,11 +2031,6 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 957742617}
---- !u!1 &965393061 stripped
-GameObject:
-  m_PrefabParentObject: {fileID: 1853729519020596, guid: f656410f1c954fe4a957a5f6eb2e3698,
-    type: 2}
-  m_PrefabInternal: {fileID: 200635371}
 --- !u!1001 &967647766
 Prefab:
   m_ObjectHideFlags: 0
@@ -3770,7 +3765,6 @@ MonoBehaviour:
   audioSource: {fileID: 1956198753}
   treinamento: {fileID: 8300000, guid: 131477b4eff4d447fbee926db486319b, type: 3}
   run: {fileID: 8300000, guid: 849feff3b78c4483daf9da48d45914aa, type: 3}
-  fade: {fileID: 965393061}
   pointsFirstRoom: 10
   pointsSecondRoom: 5
 --- !u!1 &1659805860
