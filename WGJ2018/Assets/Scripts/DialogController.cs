@@ -18,9 +18,9 @@ public class DialogController : MonoBehaviour
     public Sprite[] thirdDialog;
     public Sprite[] forthDialog;
 
-    public GameObject fire;
-
     private Sprite[] currentDialog;
+
+    public GameObject[] fire;
 
     private bool dialogIsOn = true;
 
@@ -28,7 +28,6 @@ public class DialogController : MonoBehaviour
 
     private void Start()
     {
-        fire.SetActive(false);
         currentDialog = firstDialog;
         tutorial.SetActive(true);
         StartDialog();
@@ -136,7 +135,6 @@ public class DialogController : MonoBehaviour
                 {
                     Destroy(obj);
                 }
-
             }
 
             if (dialogNumber == 4 && currentDialog == secondDialog)
@@ -177,13 +175,15 @@ public class DialogController : MonoBehaviour
             tutorial.SetActive(true);
             foreach (GameObject obj in objs)
             {
-                obj.GetComponent<EnemyController>().SetCanMove(true);
+                Destroy(obj);
             }
 
             foreach (GameObject obj in objs02)
             {
-                obj.GetComponent<EnemyController>().SetCanMove(true);
+                Destroy(obj);
             }
+
+            FindObjectOfType<SpawnerController>().GetComponent<SpawnerController>().ControlEnemies(true);
         }
 
         if (currentDialog == thirdDialog)
@@ -215,14 +215,28 @@ public class DialogController : MonoBehaviour
             FindObjectOfType<SpawnerController>().GetComponent<SpawnerController>().ControlEnemies(true);
         }
 
-        if(currentDialog == forthDialog)
+        if (currentDialog == forthDialog)
         {
             FindObjectOfType<SceneController>().GetComponent<SceneController>().FinalCreditsScreen();
         }
 
         if (currentDialog == secondDialog)
         {
-            fire.gameObject.SetActive(true);
+            foreach (GameObject obj in objs)
+            {
+                Destroy(obj);
+            }
+
+            foreach (GameObject obj in objs02)
+            {
+                Destroy(obj);
+            }
+
+            for (int i = 0; i < fire.Length; i++)
+            {
+                fire[i].SetActive(true);
+            }
+
             ChangeDialog(3);
         }
     }

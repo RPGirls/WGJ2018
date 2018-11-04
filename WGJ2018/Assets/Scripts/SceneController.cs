@@ -23,7 +23,7 @@ public class SceneController : MonoBehaviour
 
     public GameObject cenario01;
     public GameObject cenario02;
-    public GameObject fogo;
+    public GameObject[] fogo;
 
     public AudioSource audioSource;
     public AudioClip treinamento;
@@ -284,7 +284,10 @@ public class SceneController : MonoBehaviour
         witch.transform.localPosition = new Vector3(-396f, -236f, 0f);
         cenario01.SetActive(false);
         cenario02.SetActive(true);
-        fogo.SetActive(false);
+        for(int i = 0; i<fogo.Length; i++)
+        {
+            fogo[i].SetActive(false);
+        }
         FindObjectOfType<DialogController>().GetComponent<DialogController>().ChangeDialog(4);
     }
 
