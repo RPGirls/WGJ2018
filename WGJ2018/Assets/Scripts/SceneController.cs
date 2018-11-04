@@ -69,22 +69,23 @@ public class SceneController : MonoBehaviour
         introOff = false;
     }
 
-    IEnumerator Fade(GameObject desliga, GameObject liga)
+    IEnumerator Fade(GameObject desliga, GameObject liga, GameObject liga02)
     {
         fade.GetComponent<Animator>().SetTrigger("fade");
         yield return new WaitForSeconds(1f);
         desliga.SetActive(false);
-        liga.SetActive(false);
+        liga.SetActive(true);
+        liga02.SetActive(true);
     }
 
     public void SecondRoom()
     {
-        var coroutine = Fade(firstRoom, secondRoom);
+        var coroutine = Fade(firstRoom, secondRoom, null);
         StartCoroutine(coroutine);
         fade.GetComponent<Animator>().SetTrigger("fade");
         isSecond = true;
         //firstRoom.SetActive(false);
-       // secondRoom.SetActive(true);
+        // secondRoom.SetActive(true);
         count = 50;
         GameObject.FindGameObjectWithTag("progression").transform.GetChild(0).GetComponent<Slider>().value = count;
         Camera.main.orthographicSize = 5f;
@@ -134,14 +135,12 @@ public class SceneController : MonoBehaviour
     {
         if (paused)
         {
-            fade.GetComponent<Animator>().SetTrigger("fade");
             Debug.Log("volta p jogo");
             Time.timeScale = 1f;
             pauseScreen.SetActive(false);
         }
         else
         {
-            fade.GetComponent<Animator>().SetTrigger("fade");
             Debug.Log("pause");
             Time.timeScale = 0f;
             pauseScreen.SetActive(true);
@@ -151,7 +150,6 @@ public class SceneController : MonoBehaviour
 
     public void BackFromPause()
     {
-        fade.GetComponent<Animator>().SetTrigger("fade");
         Debug.Log("volta p jogo");
         paused = false;
         Time.timeScale = 1f;
@@ -163,7 +161,6 @@ public class SceneController : MonoBehaviour
 
         if (Input.GetKeyDown(KeyCode.LeftShift) && intro.activeSelf)
         {
-            fade.GetComponent<Animator>().SetTrigger("fade");
             intro.GetComponent<PlayableDirector>().Stop();
         }
 
@@ -177,14 +174,15 @@ public class SceneController : MonoBehaviour
 
         if (intro.GetComponent<PlayableDirector>().state != PlayState.Playing && !introOff)
         {
-            fade.GetComponent<Animator>().SetTrigger("fade");
+            var coroutine = Fade(intro, firstRoom, game);
+            StartCoroutine(coroutine);
             audioSource.clip = treinamento;
             audioSource.Play();
 
             introOff = true;
-            intro.SetActive(false);
-            firstRoom.SetActive(true);
-            game.SetActive(true);
+            // intro.SetActive(false);
+            // firstRoom.SetActive(true);
+            // game.SetActive(true);
             isSecond = false;
             Camera.main.orthographicSize = 3.35f;
             Camera.main.gameObject.transform.position = new Vector3(-1f, -1.65f, -10f);
