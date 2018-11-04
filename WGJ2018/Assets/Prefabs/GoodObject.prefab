@@ -98,10 +98,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2bc3f7e146ab42140b48572ceab235d6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  minSpeedFirst: 1
-  maxSpeedFirst: 2
-  minSpeedSecond: 2
-  maxSpeedSecond: 3
+  minSpeedFirst: 1.5
+  maxSpeedFirst: 2.5
+  minSpeedSecond: 5
+  maxSpeedSecond: 5
   objects:
   - {fileID: 21300000, guid: cfed6b21b4cc0b34088d2d94833b52e0, type: 3}
   - {fileID: 21300000, guid: 46f0f665285c4a6428c2d9734d6ca9c3, type: 3}
@@ -187,7 +187,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 52658daa37bf1944faf2bf52fd1a7d65, type: 3}
-  m_Color: {r: 0.3443396, g: 0.9098039, b: 1, a: 0.89411765}
+  m_Color: {r: 0, g: 1, b: 0.31413627, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0

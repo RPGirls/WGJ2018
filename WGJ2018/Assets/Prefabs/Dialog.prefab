@@ -77,6 +77,7 @@ MonoBehaviour:
   - {fileID: 21300000, guid: de2a0c5ca6fcb4059826ee27c9361eb1, type: 3}
   - {fileID: 21300000, guid: baf204d886643478da76133c3c631c0a, type: 3}
   - {fileID: 21300000, guid: 9bf2c88a5ba7a4c61a0df865d4063a72, type: 3}
+  - {fileID: 21300000, guid: 8682e84ac52c74f8e9eb724f84d5fea6, type: 3}
   secondDialog:
   - {fileID: 21300000, guid: 39b01513caed1429fba5ed09254ae436, type: 3}
   - {fileID: 21300000, guid: 537209e7eedf44cdab7760704083a339, type: 3}
@@ -100,7 +101,9 @@ MonoBehaviour:
   - {fileID: 21300000, guid: 64295acd49c6748f3a134c6f77641bf6, type: 3}
   - {fileID: 21300000, guid: 736437222d49e47af8b6ce014bc3907a, type: 3}
   - {fileID: 21300000, guid: ca205eb933c82480e9b0392eaa56e939, type: 3}
-  fire: {fileID: 0}
+  fire:
+  - {fileID: 0}
+  - {fileID: 0}
 --- !u!114 &114665484412344748
 MonoBehaviour:
   m_ObjectHideFlags: 1

@@ -5,7 +5,6 @@ using UnityEngine.UI;
 
 public class DialogController : MonoBehaviour
 {
-
     public GameObject princess;
     public GameObject witch;
     public GameObject dialogueBox;
@@ -100,7 +99,7 @@ public class DialogController : MonoBehaviour
             {
                 dialogueBox.transform.parent.SetParent(princess.transform);
 
-                dialogueBox.transform.parent.transform.localPosition = new Vector3(-2.17f, 2.75f, 0f);
+                dialogueBox.transform.parent.transform.localPosition = new Vector3(-2.17f, 2.95f, 0f);
             }
 
             if (currentDialog[dialogNumber].name.Contains("Witch"))
@@ -140,11 +139,6 @@ public class DialogController : MonoBehaviour
             if (dialogNumber == 4 && currentDialog == secondDialog)
             {
                 FindObjectOfType<SceneController>().GetComponent<SceneController>().SecondRoom();
-            }
-
-            if (dialogNumber == 8 && currentDialog == secondDialog)
-            {
-                FindObjectOfType<SpawnerController>().GetComponent<SpawnerController>().SpawnInitial();
             }
 
             dialogueBox.GetComponent<Image>().sprite = currentDialog[dialogNumber];
@@ -222,16 +216,6 @@ public class DialogController : MonoBehaviour
 
         if (currentDialog == secondDialog)
         {
-            foreach (GameObject obj in objs)
-            {
-                Destroy(obj);
-            }
-
-            foreach (GameObject obj in objs02)
-            {
-                Destroy(obj);
-            }
-
             for (int i = 0; i < fire.Length; i++)
             {
                 fire[i].SetActive(true);
