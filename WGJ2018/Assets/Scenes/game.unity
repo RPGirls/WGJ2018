@@ -2121,11 +2121,6 @@ Prefab:
   m_Modification:
     m_TransformParent: {fileID: 979147055}
     m_Modifications:
-    - target: {fileID: 114166186096695018, guid: c8c2cb253394bcb469ffce5b6eb4a4f2,
-        type: 2}
-      propertyPath: fire.Array.size
-      value: 2
-      objectReference: {fileID: 0}
     - target: {fileID: 224366918089917574, guid: c8c2cb253394bcb469ffce5b6eb4a4f2,
         type: 2}
       propertyPath: m_LocalPosition.x
@@ -2236,11 +2231,6 @@ Prefab:
       propertyPath: tutorial
       value: 
       objectReference: {fileID: 308365813}
-    - target: {fileID: 114166186096695018, guid: c8c2cb253394bcb469ffce5b6eb4a4f2,
-        type: 2}
-      propertyPath: fire
-      value: 
-      objectReference: {fileID: 0}
     - target: {fileID: 114166186096695018, guid: c8c2cb253394bcb469ffce5b6eb4a4f2,
         type: 2}
       propertyPath: fire.Array.data[0]
