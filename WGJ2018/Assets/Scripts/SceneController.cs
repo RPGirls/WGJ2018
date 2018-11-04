@@ -17,6 +17,13 @@ public class SceneController : MonoBehaviour
     public GameObject intro;
     public GameObject game;
 
+    public GameObject witch;
+    public GameObject princess;
+    public GameObject bubble;
+
+    public GameObject cenario01;
+    public GameObject cenario02;
+
     private bool paused = false;
     private bool introOff = true;
     private bool isSecond = false;
@@ -172,10 +179,6 @@ public class SceneController : MonoBehaviour
 
         if (count >= 100)
         {
-            if (FindObjectOfType<DialogController>().GetComponent<DialogController>().GetDialog() == 1)
-            {
-                FindObjectOfType<DialogController>().GetComponent<DialogController>().ChangeDialog(2);
-            }
             GameObject[] objs;
             objs = GameObject.FindGameObjectsWithTag("badObject");
             GameObject[] objs02;
@@ -183,19 +186,66 @@ public class SceneController : MonoBehaviour
 
             foreach (GameObject obj in objs)
             {
-                obj.GetComponent<EnemyController>().SetCanMove(false);
+                if (FindObjectOfType<DialogController>().GetComponent<DialogController>().GetDialog() == 1)
+                {
+                    obj.GetComponent<EnemyController>().SetCanMove(false);
+                }
+                else
+                {
+                    Destroy(obj);
+                }
             }
 
             foreach (GameObject obj in objs02)
             {
-                obj.GetComponent<EnemyController>().SetCanMove(false);
+                if (FindObjectOfType<DialogController>().GetComponent<DialogController>().GetDialog() == 1)
+                {
+                    obj.GetComponent<EnemyController>().SetCanMove(false);
+                }
+                else
+                {
+                    Destroy(obj);
+                }
+            }
+
+            if (FindObjectOfType<DialogController>().GetComponent<DialogController>().GetDialog() == 1)
+            {
+                FindObjectOfType<DialogController>().GetComponent<DialogController>().ChangeDialog(2);
+            }
+            else
+            {
+                GameObject[] cenarios;
+                cenarios = GameObject.FindGameObjectsWithTag("cenario");
+
+                foreach (GameObject cenario in cenarios)
+                {
+                    cenario.GetComponent<ScrollBackground>().StopScrolling();
+                }
+                bubble.SetActive(false);
+                princess.GetComponent<Rigidbody2D>().constraints = RigidbodyConstraints2D.None;
+                princess.GetComponent<Rigidbody2D>().constraints = RigidbodyConstraints2D.FreezePositionY;
+                princess.GetComponent<Rigidbody2D>().constraints = RigidbodyConstraints2D.FreezeRotation;
+                witch.GetComponent<Rigidbody2D>().constraints = RigidbodyConstraints2D.None;
+                witch.GetComponent<Rigidbody2D>().constraints = RigidbodyConstraints2D.FreezePositionY;
+                witch.GetComponent<Rigidbody2D>().constraints = RigidbodyConstraints2D.FreezeRotation;
+
+                princess.GetComponent<Rigidbody2D>().velocity = new Vector2(3, 0);
+                witch.GetComponent<Rigidbody2D>().velocity = new Vector2(3, 0);
+
+                StartCoroutine("WaitToWin");
             }
         }
     }
 
-    public void Win()
+    IEnumerator WaitToWin()
     {
-        FindObjectOfType<ScrollBackground>().StopScrolling();
+        yield return new WaitForSeconds(1f);
+        princess.transform.position = new Vector3(-392.45f, -235.75f, 0f);
+        bubble.transform.position = new Vector3(-392.45f, -235.75f, 0f);
+        witch.transform.position = new Vector3(-396f, -236f, 0f);
+        cenario01.SetActive(false);
+        cenario02.SetActive(true);
+        FindObjectOfType<DialogController>().GetComponent<DialogController>().ChangeDialog(4);
     }
 
     public bool isSecondRoom()
