@@ -173,4 +173,9 @@ public class SceneController : MonoBehaviour
             }
         }
     }
+
+    public void Win()
+    {
+        FindObjectOfType<ScrollBackground>().StopScrolling();
+    }
 }
