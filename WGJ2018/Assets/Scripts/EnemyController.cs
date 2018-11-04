@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class EnemyController : MonoBehaviour
 {
-    public Transform target;
+    private Transform target;
     public float minSpeedFirst = 0f;
     public float maxSpeedFirst = 0f;
 
@@ -20,6 +20,11 @@ public class EnemyController : MonoBehaviour
     private bool childUp = false;
 
     private float time = 0f;
+
+    private void Awake()
+    {
+       target = FindObjectOfType<PlayerController>().gameObject.transform;
+    }
 
     private void Start()
     {

@@ -69,12 +69,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 4921913458983232, guid: 7810f6828cecf4c40b2036690373cf99, type: 2}
-  minSpeed: 0.5
-  maxSpeed: 1
+  minSpeedFirst: 0.5
+  maxSpeedFirst: 1
+  minSpeedSecond: 1
+  maxSpeedSecond: 2
   objects:
   - {fileID: 21300000, guid: f865d558cb31c354b8fdfd525688a16c, type: 3}
-  - {fileID: 21300004, guid: e04131d47c7f0274789e8edd113b7152, type: 3}
-  - {fileID: 21300094, guid: e04131d47c7f0274789e8edd113b7152, type: 3}
+  - {fileID: 21300000, guid: af862dea2b4b8ee41ac844d31d430931, type: 3}
+  - {fileID: 21300000, guid: 6049265c62b3ebc4aa619ee86a94d293, type: 3}
 --- !u!212 &212051093665839632
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -109,7 +111,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 1
+  m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: f865d558cb31c354b8fdfd525688a16c, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0

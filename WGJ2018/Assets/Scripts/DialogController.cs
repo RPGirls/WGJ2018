@@ -11,6 +11,8 @@ public class DialogController : MonoBehaviour
     public GameObject dialogueBox;
     public GameObject spawner;
 
+    public GameObject tutorial;
+
     public Sprite[] firstDialog;
     public Sprite[] secondDialog;
     public Sprite[] thirdDialog;
@@ -25,6 +27,7 @@ public class DialogController : MonoBehaviour
     private void Start()
     {
         currentDialog = firstDialog;
+        tutorial.SetActive(true);
         StartDialog();
     }
 
@@ -53,6 +56,31 @@ public class DialogController : MonoBehaviour
         StartDialog();
     }
 
+    public int GetDialog()
+    {
+        if (currentDialog == firstDialog)
+        {
+            return 1;
+        }
+
+        if (currentDialog == secondDialog)
+        {
+            return 2;
+        }
+
+        if (currentDialog == thirdDialog)
+        {
+            return 3;
+        }
+
+        if (currentDialog == forthDialog)
+        {
+            return 2;
+        }
+
+        return 0;
+    }
+
     private void StartDialog()
     {
         spawner.GetComponent<SpawnerController>().ControlEnemies(false);
@@ -66,7 +94,6 @@ public class DialogController : MonoBehaviour
     {
         if (currentDialog.Length > dialogNumber)
         {
-
             if (currentDialog[dialogNumber].name.Contains("Princess"))
             {
                 dialogueBox.transform.parent.SetParent(princess.transform);
@@ -83,6 +110,11 @@ public class DialogController : MonoBehaviour
             if (dialogNumber == 12 && currentDialog == firstDialog)
             {
                 spawner.GetComponent<SpawnerController>().SpawnInitial();
+            }
+
+            if (dialogNumber == 1 && currentDialog == firstDialog)
+            {
+                tutorial.SetActive(false);
             }
 
             if (dialogNumber == 2 && currentDialog == secondDialog)
@@ -109,6 +141,11 @@ public class DialogController : MonoBehaviour
                 FindObjectOfType<SceneController>().GetComponent<SceneController>().SecondRoom();
             }
 
+            if (dialogNumber == 9 && currentDialog == secondDialog)
+            {
+                FindObjectOfType<SpawnerController>().GetComponent<SpawnerController>().SpawnInitial();
+            }
+
             dialogueBox.GetComponent<Image>().sprite = currentDialog[dialogNumber];
             dialogNumber++;
         }
@@ -126,19 +163,29 @@ public class DialogController : MonoBehaviour
     {
         yield return new WaitForEndOfFrame();
         princess.GetComponent<PlayerController>().ChangeCanBubble(true);
+
         GameObject[] objs;
         objs = GameObject.FindGameObjectsWithTag("badObject");
         GameObject[] objs02;
         objs02 = GameObject.FindGameObjectsWithTag("goodObject");
 
-        foreach (GameObject obj in objs)
+        if (currentDialog == firstDialog)
         {
-            obj.GetComponent<EnemyController>().SetCanMove(true);
+            tutorial.SetActive(true);
+            foreach (GameObject obj in objs)
+            {
+                obj.GetComponent<EnemyController>().SetCanMove(true);
+            }
+
+            foreach (GameObject obj in objs02)
+            {
+                obj.GetComponent<EnemyController>().SetCanMove(true);
+            }
         }
 
-        foreach (GameObject obj in objs02)
+        if (currentDialog == secondDialog)
         {
-            obj.GetComponent<EnemyController>().SetCanMove(true);
+
         }
     }
 }

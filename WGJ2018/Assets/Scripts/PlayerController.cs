@@ -5,6 +5,7 @@ using UnityEngine;
 public class PlayerController : MonoBehaviour
 {
     public GameObject bubble;
+    public GameObject tutorial;
 
     private bool bubbleOn = true;
 
@@ -21,6 +22,11 @@ public class PlayerController : MonoBehaviour
             else
             {
                 bubble.SetActive(true);
+            }
+
+            if (tutorial.activeSelf)
+            {
+                tutorial.SetActive(false);
             }
 
             bubbleOn = !bubbleOn;

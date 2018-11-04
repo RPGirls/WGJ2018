@@ -55,6 +55,7 @@ public class SpawnerController : MonoBehaviour
             int n = (int)(Random.Range(0, (float)transform.childCount));
             var obj = Instantiate(badObject, new Vector3(transform.GetChild(n).transform.position.x, transform.GetChild(n).transform.position.y, 0), Quaternion.identity);
             obj.GetComponent<SpriteRenderer>().sprite = obj.GetComponent<EnemyController>().GiveSprite((int)Random.Range(0, 2));
+            obj.transform.SetParent(transform.parent);
             obj.GetComponent<EnemyController>().SetCanMove(true);
         }
         else
@@ -62,6 +63,7 @@ public class SpawnerController : MonoBehaviour
             int n02 = (int)(Random.Range(0, (float)transform.childCount));
             var obj02 = Instantiate(goodObject, new Vector3(transform.GetChild(n02).transform.position.x, transform.GetChild(n02).transform.position.y, 0), Quaternion.identity);
             obj02.GetComponent<SpriteRenderer>().sprite = obj02.GetComponent<EnemyController>().GiveSprite((int)Random.Range(0, 2));
+            obj02.transform.SetParent(transform.parent);
             obj02.GetComponent<EnemyController>().SetCanMove(true);
         }
     }
@@ -75,6 +77,7 @@ public class SpawnerController : MonoBehaviour
             {
                 var obj = Instantiate(badObject, new Vector3(transform.GetChild(fatherCount).transform.position.x, transform.GetChild(fatherCount).transform.position.y, 0), Quaternion.identity);
                 obj.GetComponent<SpriteRenderer>().sprite = obj.GetComponent<EnemyController>().GiveSprite(i);
+                obj.transform.SetParent(transform.parent);
                 obj.GetComponent<EnemyController>().InitialSprites(initialObjectsSpeed);
                 obj.GetComponent<EnemyController>().SetChildUp(true);
             }
@@ -82,6 +85,7 @@ public class SpawnerController : MonoBehaviour
             {
                 var obj = Instantiate(badObject, new Vector3(transform.GetChild(fatherCount).transform.position.x, transform.GetChild(fatherCount).transform.position.y, 0), Quaternion.identity);
                 obj.GetComponent<SpriteRenderer>().sprite = obj.GetComponent<EnemyController>().GiveSprite(i);
+                obj.transform.SetParent(transform.parent);
                 obj.GetComponent<EnemyController>().InitialSprites(initialObjectsSpeed);
             }
         }
@@ -93,6 +97,7 @@ public class SpawnerController : MonoBehaviour
             {
                 var obj02 = Instantiate(goodObject, new Vector3(transform.GetChild(fatherCount02).transform.position.x, transform.GetChild(fatherCount02).transform.position.y, 0), Quaternion.identity);
                 obj02.GetComponent<SpriteRenderer>().sprite = obj02.GetComponent<EnemyController>().GiveSprite(x);
+                obj02.transform.SetParent(transform.parent);
                 obj02.GetComponent<EnemyController>().InitialSprites(initialObjectsSpeed);
                 obj02.GetComponent<EnemyController>().SetChildUp(true);
             }
@@ -100,9 +105,11 @@ public class SpawnerController : MonoBehaviour
             {
                 var obj02 = Instantiate(goodObject, new Vector3(transform.GetChild(fatherCount02).transform.position.x, transform.GetChild(fatherCount02).transform.position.y, 0), Quaternion.identity);
                 obj02.GetComponent<SpriteRenderer>().sprite = obj02.GetComponent<EnemyController>().GiveSprite(x);
+                obj02.transform.SetParent(transform.parent);
                 obj02.GetComponent<EnemyController>().InitialSprites(initialObjectsSpeed);
             }
         }
+        spawnNumber.Clear();
     }
 
     private int RandomChoose()

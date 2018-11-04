@@ -24,7 +24,8 @@ public class SceneController : MonoBehaviour
     private int count = 50;
     private int numberOfEnemies = 0;
 
-    public int numberToChangeRoom = 10;
+    public int pointsFirstRoom = 10;
+    public int pointsSecondRoom = 5;
 
     private void Awake()
     {
@@ -56,6 +57,7 @@ public class SceneController : MonoBehaviour
         firstRoom.SetActive(false);
         secondRoom.SetActive(true);
         count = 50;
+        GameObject.FindGameObjectWithTag("progression").transform.GetChild(0).GetComponent<Slider>().value = count;
         Camera.main.orthographicSize = 5f;
         Camera.main.gameObject.transform.position = new Vector3(0f, 0f, -10f);
         FindObjectOfType<SpawnerController>().transform.localScale = new Vector3(111.2f, 5.5f, 1f);
@@ -121,11 +123,12 @@ public class SceneController : MonoBehaviour
 
         if (intro.GetComponent<PlayableDirector>().state != PlayState.Playing && !introOff)
         {
-            isSecond = false;
             introOff = true;
+            Debug.Log("oi");
             intro.SetActive(false);
             firstRoom.SetActive(true);
             game.SetActive(true);
+            isSecond = false;
             Camera.main.orthographicSize = 3.35f;
             Camera.main.gameObject.transform.position = new Vector3(-1f, -1.65f, -10f);
             FindObjectOfType<SpawnerController>().transform.localScale = new Vector3(75.75f, 3.75f, 1f);
@@ -136,13 +139,23 @@ public class SceneController : MonoBehaviour
     public void Counter(bool isGood)
     {
         numberOfEnemies++;
-        if (isGood)
+        int points = 0;
+        if (isSecond)
         {
-            count += 10;
+            points = pointsSecondRoom;
         }
         else
         {
-            count -= 10;
+            points = pointsFirstRoom;
+
+        }
+        if (isGood)
+        {
+            count += points;
+        }
+        else
+        {
+            count -= points;
             if (count < 0)
             {
                 count = 0;
@@ -159,7 +172,10 @@ public class SceneController : MonoBehaviour
 
         if (count >= 100)
         {
-            FindObjectOfType<DialogController>().GetComponent<DialogController>().ChangeDialog(2);
+            if (FindObjectOfType<DialogController>().GetComponent<DialogController>().GetDialog() == 1)
+            {
+                FindObjectOfType<DialogController>().GetComponent<DialogController>().ChangeDialog(2);
+            }
             GameObject[] objs;
             objs = GameObject.FindGameObjectsWithTag("badObject");
             GameObject[] objs02;
